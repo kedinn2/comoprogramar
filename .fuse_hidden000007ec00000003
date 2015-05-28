@@ -8,7 +8,7 @@ description: "Aprendiendo y ensenando"
 
     <article class="post">
         <div class="thumb">
-            <a href="{{ post.url }}"><img src="{% if page.url-cover %}{{ page.url-cover }}{% else %}{% asset_path default-thumbnail.jpg %}{% endif %}" alt="img"></a>
+            <a href="{{ post.url }}"><img src="{% if page.url-cover %}{{ page.url-cover }}{% else %}{% thumbnail /_assets/images/default-thumbnail.jpg 50x50< %}{% endif %}" alt="img"></a>
         </div>
         <div class="content">
             <div class="cat">

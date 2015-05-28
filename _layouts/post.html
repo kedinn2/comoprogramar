@@ -82,6 +82,8 @@ layout: default
                                             <h4><a href="#">Read These Next</a></h4>
                                         </div>
                                         <div class="post-wrap">
+
+                                        {% for post in site.related_posts %}
                                             <article class="post">
                                                 <div class="thumb">
                                                     <a href="#"><img src="images/thumbs/3.jpg" alt="img"></a>
@@ -90,7 +92,7 @@ layout: default
                                                     <div class="cat">
                                                         <a href="">Mustreads</a>
                                                     </div>
-                                                    <h3><a href="#">If you wanted to get rich, how would you do it?</a></h3>
+                                                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                                                     <p class="excerpt-entry">Economically, you can think of a startup as a way to compress your whole working life into a few years.</p>
                                                     <div class="post-meta">
                                                         <span class="author">By <a href="#">Anna Chapman</a></span>
@@ -98,6 +100,7 @@ layout: default
                                                     </div>
                                                 </div>
                                             </article><!-- /.post -->
+                                        {% endfor %}
 
                                         </div>
                                     </div>  

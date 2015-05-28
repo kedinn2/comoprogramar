@@ -10,17 +10,17 @@ github_username:  kedinn2
 googleplus_username:  cprogramar
 linkedinn_username:  cprogramar
 youtube_username:  cprogramar
-
 img-default: assets/default-cover.png
+
+
 
 permalink: /:title
 paginate: 8
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-
 port: 4000
 
 assets:
