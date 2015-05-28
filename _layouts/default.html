@@ -8,12 +8,20 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+  <section id="main" class="category-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="post-wrap">
         {{ content }}
-      </div>
-    </div>
-
+          </div><!-- /.sidebar -->
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+        {% include sidebar.html %}
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </section>
     {% include footer.html %}
 
   </body>

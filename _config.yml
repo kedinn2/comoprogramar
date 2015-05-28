@@ -7,7 +7,10 @@ baseurl: /
 url: ""
 twitter_username: kedinn2
 github_username:  kedinn2
-facebook_username:  cprogramar
+googleplus_username:  cprogramar
+linkedinn_username:  cprogramar
+youtube_username:  cprogramar
+
 img-default: assets/default-cover.png
 
 permalink: /:title
