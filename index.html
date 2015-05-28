@@ -1,23 +1,51 @@
 ---
-layout: default
+layout: page
+description: "Aprendiendo y ensenando"
 ---
 
-<div class="home">
+{% for post in paginator.posts %}
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <article class="post">
+        <div class="thumb">
+            <a href="{{ post.url }}"><img src="{% if page.url-cover %}{{ page.url-cover }}{% else %}{{ site.img-default }}{% endif %}" alt="img"></a>
+        </div>
+        <div class="content">
+            <div class="cat">
+                <a href="#">Mustreads</a>
+            </div>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="excerpt-entry">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                        {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            </p>
+            <div class="activity">
+                <span class="views">{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span><span class="comment"><a href="#">{{ post.date | date: "%B %-d, %Y" }}</a></span>
+            </div>
+        </div>
+    </article>
 
-</div>
+
+
+{% endfor %}
+
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

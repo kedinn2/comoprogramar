@@ -1,14 +1,42 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Code
+header-img: img/home-bg.jpg
+email: kedinn.th@gmail.com
+description: ""
+baseurl: /
+url: ""
+twitter_username: kedinn2
+github_username:  kedinn2
+facebook_username:  cprogramar
+img-default: assets/default-cover.png
 
-# Build settings
-markdown: kramdown
+permalink: /:title
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+markdown: redcarpet
+highlighter: pygments
+# pygments: true
+redcarpet:
+  extensions: ["tables"]
+port: 4000
+
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets
+    - _assets/javascript
+    - _assets/stylesheets
+    - _assets/images
+    - _assets/images/wp
+    - _assets/fonts
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
+
+

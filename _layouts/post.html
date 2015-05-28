@@ -1,15 +1,126 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <section id="main" class="category-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                <div class="post-wrap posts posts-list">
+                        <article class="post">
+                            <div class="head-post">
+                                <h2>{{ page.title }}</h2>
 
-</div>
+                                {% if page.subtitle %}
+                                <h2 class="subheading">{{ page.subtitle }}</h2>
+                                {% endif %}
+
+
+
+
+                                <div class="meta">
+                                    <span class="author">Por <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} </a></span>
+                                    <span class="time"> {{ page.date | date: "%B %-d, %Y" }} </span>
+                                </div>
+                            </div>
+                            <div class="body-post">
+                                <div class="main-post">
+                                    <div class="entry-post">
+                                    <img class="cente" src="{{ page.url-cover }}"></img>
+                                        {{ content }}
+                                    </div>
+
+
+                                    <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+
+
+                                    <div class="tags">
+                                        <h4>In this article:</h4>
+                                        <a href="#">Startups</a>
+                                        <a href="#">Technology</a>
+                                        <a href="#">Millions of dollars</a>
+                                        <a href="#">Paul Graham</a>
+                                    </div>
+                                    <div class="load-comment">
+                                        
+
+
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'kedinn';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+   
+                                    </div>
+
+<div class="relate-posts">
+                                        <div class="section-title">
+                                            <h4><a href="#">Read These Next</a></h4>
+                                        </div>
+                                        <div class="post-wrap">
+                                            <article class="post">
+                                                <div class="thumb">
+                                                    <a href="#"><img src="images/thumbs/3.jpg" alt="img"></a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="cat">
+                                                        <a href="">Mustreads</a>
+                                                    </div>
+                                                    <h3><a href="#">If you wanted to get rich, how would you do it?</a></h3>
+                                                    <p class="excerpt-entry">Economically, you can think of a startup as a way to compress your whole working life into a few years.</p>
+                                                    <div class="post-meta">
+                                                        <span class="author">By <a href="#">Anna Chapman</a></span>
+                                                        <span class="time"> - 16 hours ago</span>
+                                                    </div>
+                                                </div>
+                                            </article><!-- /.post -->
+
+                                        </div>
+                                    </div>  
+
+
+
+
+
+                                </div><!-- /.main-post -->
+                            </div><!-- /.body-post -->
+                        </article><!-- /.post -->
+
+                    </div>
+
+                </div><!-- /.col-md-8 -->
+                 
+
+                 {% include sidebar.html %}
+
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
