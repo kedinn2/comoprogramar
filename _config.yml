@@ -1,7 +1,7 @@
 # Site settings
 title: Code
-header-img: img/home-bg.jpg
 email: kedinn.th@gmail.com
+author: kedinn
 description: ""
 baseurl: /
 url: ""
@@ -12,15 +12,15 @@ img-default: assets/default-cover.png
 
 permalink: /:title
 paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
 
 markdown: redcarpet
-highlighter: pygments
-# pygments: true
+pygments: true
 redcarpet:
-  extensions: ["tables"]
-port: 4000
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 
+
+port: 4000
 
 assets:
   dirname: assets
