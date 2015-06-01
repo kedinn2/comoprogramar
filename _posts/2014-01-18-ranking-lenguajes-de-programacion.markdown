@@ -1,0 +1,177 @@
+---
+layout: post
+title: Ranking lenguajes de programación populares 2013 - 2014
+date: 2014-01-18 00:01:16
+categories: general
+tags: []
+---
+<p>Los datos mostrados son por la pagina Tiobe uno de los sitios con mas reputación a comparación de otros.</p>
+<p><strong>Encabezado junio:</strong> Swift va a reemplazar a Objective-C?<br />
+
+Este mes Apple anunció su nuevo lenguaje de programación Swift  para iOS y OS X de desarrollo. Swift aún no forma parte del ranking TIOBE, pero será a partir del próximo mes. Una vista preliminar muestra que su primera calificación probablemente en el top 20 para entonces. Swift es un paso y tan esperado de Apple. La introducción del exitoso iPhone y iPad provocó una gran demanda y desarrollo de aplicaciones móviles, comenzando alrededor de 2008/2009. Apple sólo ofrece su lenguaje Objective-C para crear estas aplicaciones en ese momento. Objective-C fue uno de los primeros lenguajes orientados a objetos, pero nunca recibió un cambio de imagen desde su nacimiento en 1983. Así que me sentí un poco anticuado, cuando 25 años más tarde, una gran parte de la comunidad de desarrollo de software se vieron obligados a aprender y usar Objective-C. Es por eso que el lanzamiento del nuevo lenguaje Swift se ha recibido muy bien. Vamos a ver lo que va a pasar en los próximos meses.</p>
+<p><img class="aligncenter size-full wp-image-8745" src="/assets/top-lenguajes-de-programacion.jpg" alt="top-lenguajes-de-programacion" width="682" height="651" /></p>
+<p><img class="aligncenter size-full wp-image-8746" src="/assets/c-objetive-por-swift.jpg" alt="c-objetive-por-swift" width="673" height="378" /></p>
+<p><strong>Otros lenguajes de programación</strong></p>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Posición</th>
+<th>Lenguaje de Programación</th>
+<th>Valoraciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="color: #666666;">21</td>
+<td style="color: #666666;">Logo</td>
+<td style="color: #666666;">0.767</td>
+</tr>
+<tr>
+<td style="color: #666666;">22</td>
+<td style="color: #666666;">OpenEdge ABL</td>
+<td style="color: #666666;">0.737</td>
+</tr>
+<tr>
+<td style="color: #666666;">23</td>
+<td style="color: #666666;">R</td>
+<td style="color: #666666;">0.673</td>
+</tr>
+<tr>
+<td style="color: #666666;">24</td>
+<td style="color: #666666;">PostScript</td>
+<td style="color: #666666;">0.671</td>
+</tr>
+<tr>
+<td style="color: #666666;">25</td>
+<td style="color: #666666;">ML</td>
+<td style="color: #666666;">0.635</td>
+</tr>
+<tr>
+<td style="color: #666666;">26</td>
+<td style="color: #666666;">PL / SQL</td>
+<td style="color: #666666;">0.492</td>
+</tr>
+<tr>
+<td style="color: #666666;">27</td>
+<td style="color: #666666;">D</td>
+<td style="color: #666666;">0.473</td>
+</tr>
+<tr>
+<td style="color: #666666;">28</td>
+<td style="color: #666666;">PL / I</td>
+<td style="color: #666666;">0.446</td>
+</tr>
+<tr>
+<td style="color: #666666;">29</td>
+<td style="color: #666666;">cT</td>
+<td style="color: #666666;">0.432</td>
+</tr>
+<tr>
+<td style="color: #666666;">30</td>
+<td style="color: #666666;">Ir</td>
+<td style="color: #666666;">0.425</td>
+</tr>
+<tr>
+<td style="color: #666666;">31</td>
+<td style="color: #666666;">COBOL</td>
+<td style="color: #666666;">0.407</td>
+</tr>
+<tr>
+<td style="color: #666666;">32</td>
+<td style="color: #666666;">Ada</td>
+<td style="color: #666666;">0.403</td>
+</tr>
+<tr>
+<td style="color: #666666;">33</td>
+<td style="color: #666666;">Fortran</td>
+<td style="color: #666666;">0.371</td>
+</tr>
+<tr>
+<td style="color: #666666;">34</td>
+<td style="color: #666666;">ABAP</td>
+<td style="color: #666666;">0.357</td>
+</tr>
+<tr>
+<td style="color: #666666;">35</td>
+<td style="color: #666666;">Lua</td>
+<td style="color: #666666;">0.346</td>
+</tr>
+<tr>
+<td style="color: #666666;">36</td>
+<td style="color: #666666;">Haskell</td>
+<td style="color: #666666;">0.346</td>
+</tr>
+<tr>
+<td style="color: #666666;">37</td>
+<td style="color: #666666;">RPG (OS/400)</td>
+<td style="color: #666666;">0.325</td>
+</tr>
+<tr>
+<td style="color: #666666;">38</td>
+<td style="color: #666666;">Rasguño</td>
+<td style="color: #666666;">0.324</td>
+</tr>
+<tr>
+<td style="color: #666666;">39</td>
+<td style="color: #666666;">Tcl</td>
+<td style="color: #666666;">0.315</td>
+</tr>
+<tr>
+<td style="color: #666666;">40</td>
+<td style="color: #666666;">SAS</td>
+<td style="color: #666666;">0.308</td>
+</tr>
+<tr>
+<td style="color: #666666;">41</td>
+<td style="color: #666666;">Scala</td>
+<td style="color: #666666;">0.308</td>
+</tr>
+<tr>
+<td style="color: #666666;">42</td>
+<td style="color: #666666;">Z shell</td>
+<td style="color: #666666;">0.306</td>
+</tr>
+<tr>
+<td style="color: #666666;">43</td>
+<td style="color: #666666;">Esquema</td>
+<td style="color: #666666;">0.279</td>
+</tr>
+<tr>
+<td style="color: #666666;">44</td>
+<td style="color: #666666;">Groovy</td>
+<td style="color: #666666;">0.269</td>
+</tr>
+<tr>
+<td style="color: #666666;">45</td>
+<td style="color: #666666;">Korn</td>
+<td style="color: #666666;">0.264</td>
+</tr>
+<tr>
+<td style="color: #666666;">46</td>
+<td style="color: #666666;">Prólogo</td>
+<td style="color: #666666;">0.263</td>
+</tr>
+<tr>
+<td style="color: #666666;">47</td>
+<td style="color: #666666;">Erlang</td>
+<td style="color: #666666;">0.256</td>
+</tr>
+<tr>
+<td style="color: #666666;">48</td>
+<td style="color: #666666;">Moto</td>
+<td style="color: #666666;">0.239</td>
+</tr>
+<tr>
+<td style="color: #666666;">49</td>
+<td style="color: #666666;">Io</td>
+<td style="color: #666666;">0.234</td>
+</tr>
+<tr>
+<td style="color: #666666;">50</td>
+<td style="color: #666666;">cg</td>
+<td style="color: #666666;">0.234</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="font-size: 1.4rem; line-height: 1.6;">Fuente: <a href="http://www.tiobe.com/" target="_blank">Tiobe</a>.</span></p>

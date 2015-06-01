@@ -1,21 +1,36 @@
 
 					<div class="sidebar-widget-1">
+
+						<div class="widget widget-ads">
+                                    <center>
+                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                        <!-- NEEW REC -->
+                                        <ins class="adsbygoogle"
+                                             style="display:inline-block;width:300px;height:250px"
+                                             data-ad-client="ca-pub-8586657879451835"
+                                             data-ad-slot="3347319050"></ins>
+                                        <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                                    </center>
+						</div><!-- /.widget-ads -->
+
 						<div class="widget widget-tabs2">
 							<div class="tabs style2">
 								<ul class="menu-tab">
-									<li class="active"><a href="#">5 Most Popular</a></li>
-								   	<li><a href="#">5 Most Emailed</a></li>
+									<li class="active"><a href="#">RECIENTES</a></li>
+								   	<li><a href="#">DESTACADOS</a></li>
 								</ul><!-- /.menu-tab -->
 								<div class="content-tab">
 								   	<div class="content" style="display: block;">
 										<ul class="most-popular">
-										{% for week in site.weekly_highlights limit:2 %}
-											{% for p in week.hls limit:3 %}
+										{% for post in site.related_posts limit:8 %}
+					
 											<li>
-												<div class="order">1</div>
-												<p><a href="">{{p.title}}</a></p>
+												<div class="order">•</div> 
+												<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 											</li>
-											{% endfor %}
+							
 										{% endfor %}
 											
 
@@ -38,153 +53,84 @@
 								</div><!-- /.content-tab -->
 							</div><!-- /.tabs -->
 						</div><!-- /.widget-tabs2 -->
+
+
 						<div class="widget widget-ads">
-							<a href="#"><img src="images/ad.jpg" alt="image"></a>
-							<p class="text-ad">Advertisement</p>
+                                    <center>
+										<div id="fb-root"></div>
+										<script>(function(d, s, id) {
+										  var js, fjs = d.getElementsByTagName(s)[0];
+										  if (d.getElementById(id)) return;
+										  js = d.createElement(s); js.id = id;
+										  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=678433192222569";
+										  fjs.parentNode.insertBefore(js, fjs);
+										}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/cprogramar" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cprogramar"><a href="https://www.facebook.com/cprogramar">Como Programar</a></blockquote></div></div>
+</div><!-- /.widget-ads -->
+
+
+									<div class="widget widget-tabs2">										
+                                    </center >
+						
+						<div class="etiqueta">
+						{% for tags in site.data.tags %}
+						<a href="/etiqueta/{{ tags.slug }}">{{ tags.name }}</a></h1>
+						</a>
+						
+						{% endfor %}
+						</div>
+						</div>
+
+
+
+						<div class="widget widget-ads">
+                                    <center>
+
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+										
+                                    </center>
 						</div><!-- /.widget-ads -->
-						<div class="widget widget-tabs">
-							<div class="tabs">
-								<ul class="menu-tab">
-									<li class="active"><a href="#">Comments</a></li>
-								   	<li><a href="#">Popular</a></li>
-								   	<li><a href="#">Tags</a></li>
-								</ul><!-- /.menu-tab -->
-								<div class="content-tab">
-								   	<div class="content" style="display: block;">
-										<ul class="comments">
-											<li>
-												<div class="avatar">
-													<a href="#"><img src="images/user.jpg" alt="image"></a>
-												</div>
-												<p><a href="#">Jack</a> on <a href="#">I think your best bet would be to start or join a startup.</a> 2 hours</p>
-											</li>	
-											<li>
-												<div class="avatar">
-													<a href="#"><img src="images/user.jpg" alt="image"></a>
-												</div>
-												<p><a href="#">Jack</a> on <a href="#">I think your best bet would be to start or join a startup.</a> 2 hours</p>
-											</li>
-											<li>
-												<div class="avatar">
-													<a href="#"><img src="images/user.jpg" alt="image"></a>
-												</div>
-												<p><a href="#">Jack</a> on <a href="#">I think your best bet would be to start or join a startup.</a> 2 hours</p>
-											</li>
-											<li>
-												<div class="avatar">
-													<a href="#"><img src="images/user.jpg" alt="image"></a>
-												</div>
-												<p><a href="#">Jack</a> on <a href="#">I think your best bet would be to start or join a startup.</a> 2 hours</p>
-											</li>
-											<li>
-												<div class="avatar">
-													<a href="#"><img src="images/user.jpg" alt="image"></a>
-												</div>
-												<p><a href="#">Jack</a> on <a href="#">I think your best bet would be to start or join a startup.</a> 2 hours</p>
-											</li>
-										</ul>
-								   	</div><!-- /.comments -->
-								   	<div class="content" style="display: none;">
-										<ul class="pop-posts">
-											<li>
-												<div class="thumb">
-													<a href="#"><img alt="" src="images/thumbs/1.jpg"></a>
-												</div>
-												<div class="text">
-													<a href="#">If you wanted to get rich, how would you do it?</a>
-													<i>Aug 1, 2014</i>
-												</div>
-											</li>
-											<li>
-												<div class="thumb">
-													<a href="#"><img alt="" src="images/thumbs/1.jpg"></a>
-												</div>
-												<div class="text">
-													<a href="#">If you wanted to get rich, how would you do it?</a>
-													<i>Aug 1, 2014</i>
-												</div>
-											</li>
-											<li>
-												<div class="thumb">
-													<a href="#"><img alt="" src="images/thumbs/1.jpg"></a>
-												</div>
-												<div class="text">
-													<a href="#">If you wanted to get rich, how would you do it?</a>
-													<i>Aug 1, 2014</i>
-												</div> 
-											</li>
-											<li>
-												<div class="thumb">
-													<a href="#"><img alt="" src="images/thumbs/1.jpg"></a>
-												</div>
-												<div class="text">
-													<a href="#">If you wanted to get rich, how would you do it?</a>
-													<i>Aug 1, 2014</i>
-												</div> 
-											</li>
-											<li>
-												<div class="thumb">
-													<a href="#"><img alt="" src="images/thumbs/1.jpg"></a>
-												</div>
-												<div class="text">
-													<a href="#">If you wanted to get rich, how would you do it?</a>
-													<i>Aug 1, 2014</i>
-												</div>
-											</li>
-										</ul>
-								   	</div><!-- /.comments -->
-								   	<div class="content" style="display: none;">
-										<div class="tags">
-											<a href="#">business</a>
-											<a href="#">themeforest</a>
-											<a href="#">good news</a>
-											<a href="#">startups</a>
-											<a href="#">red</a>
-											<a href="#">politics</a>
-											<a href="#">europe</a>
-											<a href="#">asia</a>
-										</div>
-								   	</div><!-- /.comments -->
-								</div><!-- /.content-tab -->
-							</div><!-- /.tabs -->
-						</div><!-- /.widget-tabs -->
+
+
+
+
+
+
+
+
+
+
+
 						<div class="widget widget-follow-us">
-							<h5 class="widget-title text-dark">Follow Us</h5>
+							<center>
 							<div class="socials">
-								<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-								<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-								<a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
-								<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-								<a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a>
+								<a class="facebook" href="https://www.facebook.com/cprogramar"><i class="icon-Facebook"></i></a>
+								<a class="twitter" href="https://twitter.com/kedinn2"><i class="icon-Twitter"></i></a>
+								<a class="google" href="https://plus.google.com/u/0/118382347982297458050"><i class="icon-Googleplus"></i></a>
+								<a class="youtube" href="https://www.youtube.com/kedinn"><i class="icon-Youtube"></i></a>
+								<a class="linkedin" href="https://pe.linkedin.com/pub/kedinn-turpo/3b/30a/163"><i class="icon-Linkedin"></i></a>
+								<a class="github" href="https://github.com/kedinn2"><i class="icon-Github"></i></a>
 							</div>
+							</center>
 						</div><!-- /.widget-follow-us -->
-						<div class="widget widget-categories">
-							<h5 class="widget-title">Archives</h5>
-							<ul class="cat-list">
-								<li><a href="#">December 2013 <span>(0)</span></a></li>
-								<li><a href="#">November 2013 <span>(22)</span></a></li>
-								<li><a href="#">October 2013 <span>(17)</span></a></li>
-								<li><a href="#">June 2013 <span>(16)</span></a></li>
-								<li><a href="#">May 2013 <span>(14)</span></a></li>
-								<li><a href="#">April 2013 <span>(10)</span></a></li>
-								<li><a href="#">March 2013 <span>(1)</span></a></li>
-								<li><a href="#">December 2012 <span>(1)</span></a></li>
-							</ul>
-						</div><!-- /.widget-categories -->
-						<div class="widget widget-subscribe">
-							<h5 class="widget-title">Good News Newsetter</h5>
-							<p>Subscribe to our email newsletter for good news, sent out every Monday.</p>
-							<form method="post" action="#" id="subscribe-form" data-mailchimp="true">
-								<div id="subscribe-content">
-									<div class="input">
-									   <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Email">
-									</div>
-									<div class="button">
-									   <button type="button" id="subscribe-button" class="" title="Subscribe now">Subscribe</button>
-									</div>
-								</div>
-								<div id="subscribe-msg"></div>
-							</form>
-						</div><!-- /.widget-subscribe -->
+
+
+
 					</div><!-- /.sidebar -->

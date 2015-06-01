@@ -1,10 +1,10 @@
 # Site settings
-title: Code
+title: Como Programar - Hablar es barato, Enséñame el código
 email: kedinn.th@gmail.com
 author: kedinn
-description: ""
+description: "Cómo aprender a programar en Android y Java, C# (Sharp), C++, html, PHP, Visual Basic, Javascript, Objetive C, Juegos, Python, Python,Hacking, 2015."
 baseurl: /
-url: ""
+url: "/"
 twitter_username: kedinn2
 github_username:  kedinn2
 googleplus_username:  cprogramar
@@ -12,16 +12,16 @@ linkedinn_username:  cprogramar
 youtube_username:  cprogramar
 img-default: assets/default-cover.png
 
-
-
 permalink: /:title
 paginate: 8
+
+
 
 markdown: redcarpet
 highlighter: pygments
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-port: 4000
+port: 4001
 
 assets:
   dirname: assets

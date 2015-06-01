@@ -1,0 +1,53 @@
+- slug: java
+  name: Java
+
+- slug: ruby
+  name: Ruby
+
+- slug: ruby-on-rails
+  name: Ruby on Rails
+
+- slug: python
+  name: Python
+
+- slug: jekyll
+  name: Jekyll
+
+- slug: html
+  name: HTML
+
+- slug: mongodb
+  name: Mongodb
+
+- slug: nginx
+  name: Nignx
+
+- slug: mysql
+  name: Mysql
+
+- slug: ubuntu
+  name: Ubuntu
+
+- slug: cplusplus
+  name: C++
+
+- slug: wordpress
+  name: Wordpress
+
+- slug: nodejs
+  name: Nodejs
+
+- slug: css
+  name: CSS3
+
+- slug: netbeans
+  name: Netbeans
+
+- slug: javascript
+  name: Javascript
+
+- slug: csharp
+  name: C#
+
+- slug: eclipse
+  name: Eclipse

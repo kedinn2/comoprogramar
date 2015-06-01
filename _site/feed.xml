@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Como Programar - Hablar es barato, Enséñame el código</title>
+    <description>Cómo aprender a programar en Android y Java, C# (Sharp), C++, html, PHP, Visual Basic, Javascript, Objetive C, Juegos, Python, Python,Hacking, 2015.</description>
+    <link>///</link>
+    <atom:link href="///feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 31 May 2015 19:36:20 -0500</pubDate>
+    <lastBuildDate>Sun, 31 May 2015 19:36:20 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>¿Qué lenguaje de programación debo aprender primero?</title>
+        <description>&lt;p&gt;Un diagrama detallado para ayudar a los novatos para elegir su primer lenguaje de programación.&lt;/p&gt;
+
+&lt;p&gt;También una lista de las mejores herramientas de programación y recursos para cada lenguaje de programación, que le ayudarán a empezar a trabajar rápidamente.&lt;br /&gt;
+
+Seguramente preguntaste a tus amigos para que puedan ayudarte y obtienes respuestas diferentes. En la siguiente imagen resolver tus dudas. Detalles como dificultad para aprender, la popularidad, el salario promedio para cada lenguaje de programación y en que se utiliza cada lenguaje.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/que-lenguaje-de-programación-debo-aprender-primero.png&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter size-large wp-image-9935&quot; src=&quot;/assets/que-lenguaje-de-programación-debo-aprender-primero.png&quot; alt=&quot;que lenguaje de programación debo aprender primero&quot; width=&quot;926&quot; height=&quot;1024&quot; /&gt;&lt;/a&gt; Voy a traducirlo a español y mostrar una buena presentación, para que puedan entender mejor :)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Feb 2015 15:42:45 -0500</pubDate>
+        <link>///que-lenguaje-de-programacion-debo-aprender-primero</link>
+        <guid isPermaLink="true">///que-lenguaje-de-programacion-debo-aprender-primero</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Gemas esenciales para Ruby on Rails</title>
+        <description>&lt;p&gt;El framework Ruby on Rails es una herramienta muy poderosa para el desarrollo de aplicaciones web. Viene con un montón de características integradas que ayudan a acelerar el desarrollo de la aplicación, tales como enrutamiento inteligente y un mapeador objeto-relación, todas ellas con un patrón MVC.&lt;/p&gt;
+
+&lt;p&gt;Rails está diseñado de una manera muy fácil de utilizar. Donde se ha creado un gran cantidad de gemas de Ruby para facilitar en la aplicación y acelerar su proceso de desarrollo.  Mostrare una lista de gemas que consideramos de gran utilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter wp-image-9957 size-full&quot; src=&quot;/assets/rubyrails.png&quot; alt=&quot;rubyrails&quot; width=&quot;640&quot; height=&quot;320&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Devise&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/plataformatec/devise&quot; target=&quot;_blank&quot;&gt;Devise &lt;/a&gt;es una de las gemas  más utilizadas comúnmente. Proporciona una solución fácil de usar &lt;strong&gt;autentificación&lt;/strong&gt; de usuarios para su aplicación Rails que le permitirá obtener login, registro, si olvido su contraseña  y muchas más características relacionadas con la cuenta usuarios.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Pundit&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Ya conocemos Devise para la autentificación pero lo que hace falta es la &lt;strong&gt;Autorización&lt;/strong&gt; para saber que el usuario tiene permiso para realizar una acción o acceso a un recurso. &lt;a href=&quot;https://rubygems.org/gems/pundit&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Pundit&lt;/strong&gt;&lt;/a&gt; se encarga de todo el proceso, proporcionando una manera sencilla de definir los sistemas de autorización utilizando nada más que clases de Ruby.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Slim&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Si conoces Sass para CSS y CoffeScript para JavaScript entonces &lt;strong&gt;Slim&lt;/strong&gt; es para &lt;strong&gt;HTML y Rails&lt;/strong&gt;. &lt;strong&gt;&lt;a href=&quot;https://rubygems.org/gems/slim&quot; target=&quot;_blank&quot;&gt;Slim&lt;/a&gt;&lt;/strong&gt; permite mantener muy fácil de leer las vistas debido a su sintaxis sencilla y es muy rápido a comparación de Haml que es otra buena opción parecido a Slim.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Draper&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/drapergem/draper&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Draper&lt;/strong&gt;&lt;/a&gt; le permite crear decorators alrededor de sus modelos. que además de simplificarnos la creación de nuestros propios decorators, nos añade una serie de generadores y helpers que nos van a ser muy útiles, a sí evitar escribir demasiado código.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Cells&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Las &lt;a href=&quot;https://rubygems.org/gems/cells&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Cells&lt;/strong&gt;&lt;/a&gt; permiten tomar partes de su controlador y los encapsula en su propio pequeño controlador. Esto ayuda a que su código sea mucho más limpio y evitar tener largos códigos en helper/partial/filter .&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;FriendlyId&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://rubygems.org/gems/friendly_id&quot; target=&quot;_blank&quot;&gt;FriendlyId&lt;/a&gt;&lt;/strong&gt; se encarga de optimizar las URLs para que sean mucho más amigables y fáciles de leer sobre todo para el SEO.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Simple Form&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Los formularios siempre estan en cada aplicación web. &lt;a href=&quot;https://rubygems.org/gems/simple_form&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Simple Form&lt;/strong&gt;&lt;/a&gt; ayuda a simplificar esta tarea de menera simple. simismo debido a su simplicidad en el código nos permite definir estilos en nuestra web sin tocar el código existente.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Paperclip&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;span id=&quot;result_box&quot; class=&quot;&quot; lang=&quot;es&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Los archivos adjuntos&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;no&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;son fáciles de&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;trabajar.&lt;/span&gt;&lt;a href=&quot;https://rubygems.org/gems/paperclip&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt; &lt;span class=&quot;hps&quot;&gt;Paperclip&lt;/span&gt;&lt;/strong&gt;&lt;/a&gt; &lt;span class=&quot;hps&quot;&gt;se encarga de&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;todo el proceso de adjuntar archivos, &lt;/span&gt;&lt;span class=&quot;hps&quot;&gt;la transformación de imágenes&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;miniaturas&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;y mucho más&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Kaminari&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Una de las gemas populares con más de 6 millones de descargas. Cuando usted tenga un registro de 60mil listas y muestre en una página, que seguramente tenga un problema en demorar en cargar o se pueda colgar el nevagador.  &lt;a href=&quot;https://rubygems.org/gems/kaminari&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Kaminari&lt;/strong&gt;&lt;/a&gt; se encarga de solucionar este problema con la paginación que es muy  personalizable.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;Sidekiq&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;En Rails existen muchas soluciones para implementar los procesos que tarden demasiado como tareas de segundo plano. Cada una una tiene sus ventajas, y &lt;a href=&quot;https://rubygems.org/gems/sidekiq&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Sidekiq&lt;/strong&gt; &lt;/a&gt;no es la excepción. Se trata de una gema similar a Resque, pero la diferencia principal es que gestiona múltiples tareas de forma concurrente mediante el uso de threads en lugar de procesos lo que resulta en un menor uso de la memoria.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Estoy probando cada una de estas maravillosas gemas, si quieren más detalles nada mejor que probarlo y practicar, las gemas tienen una documentación que esta en el mismo Github.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Feb 2015 15:42:45 -0500</pubDate>
+        <link>///gemas-para-ruby-on-rails</link>
+        <guid isPermaLink="true">///gemas-para-ruby-on-rails</guid>
+        
+        <category>ruby-on-rails</category>
+        
+        <category>ruby</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>¿Qué lenguaje de programación debo aprender primero?</title>
+        <description>&lt;p&gt;Plugin para wordpres que permite insertar código en el sitio web, es muy facil de utilizar, solo tiene que instalar y eso es todo no necesita onfiguraciones, el plugin &lt;strong&gt;Simple Code Highlighter&lt;/strong&gt; que estaré actualizando, pueden estar seguros de utilizas el plugin, si hay algún problema o tienen ideas para mejorar el plugin solo dejen sus comentarios en la pagina.&lt;/p&gt;
+
+&lt;p&gt;Detalles del plugin : &lt;a href=&quot;https://wordpress.org/plugins/simple-code-highlighter/&quot; target=&quot;_blank&quot;&gt;Simple Code Highlighte&lt;/a&gt;r&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;screenshot 01&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9770&quot; src=&quot;/assets/Simple-Code-Highlighter-01.jpg&quot; alt=&quot;Simple-Code-Highlighter-01&quot; width=&quot;938&quot; height=&quot;520&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;screenshot 02&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9771&quot; src=&quot;/assets/Simple-Code-Highlighter-02.jpg&quot; alt=&quot;Simple-Code-Highlighter-02&quot; width=&quot;938&quot; height=&quot;520&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;screenshot 03&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9772&quot; src=&quot;/assets/Simple-Code-Highlighter-03.jpg&quot; alt=&quot;Simple-Code-Highlighter-03&quot; width=&quot;938&quot; height=&quot;520&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2014 23:46:56 -0500</pubDate>
+        <link>///plugin-para-insertar-codigo-en-wordpress</link>
+        <guid isPermaLink="true">///plugin-para-insertar-codigo-en-wordpress</guid>
+        
+        <category>wordpress</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Configurar la compresión Gzip en Nginx</title>
+        <description>&lt;p&gt;Una de las cosas importantes para nuestro sitio web es optimizar la velocidad de carga, google facilita la herramienta &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt; que nos permite verificar el estado de optimización de nuestro sitio lo correcto debería estar 70/100 para adelante, en fin ahora les mostrare un plus para optimizar el servidor Nginx con HttpGzipModule.&lt;/p&gt;
+
+&lt;p&gt;aprovechando, otra manera que es uno de los mas comunes es minificar archivos html, javascript y css es con &lt;a href=&quot;https://github.com/pagespeed/ngx_pagespeed&quot; target=&quot;_blank&quot;&gt;ngx_pagespeed&lt;/a&gt; para nuestro servidor nginx, muy bueno recomendado.&lt;/p&gt;
+
+&lt;h4&gt;¿Qué es Http-Gzip?&lt;/h4&gt;
+
+&lt;p&gt;HttpGzip es un módulo de Nginx  que se encarga de la compresión y descompresión &quot;al vuelo&quot; de ficheros. Esto se utiliza bastante para mejorar la carga de la web, no voy a entrar a detalles.&lt;/p&gt;
+
+&lt;p&gt;para otros servidores:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apache:  &lt;a href=&quot;http://httpd.apache.org/docs/current/mod/mod_deflate.html&quot; target=&quot;_blank&quot;&gt;mod_deflate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nginx: &lt;a href=&quot;http://wiki.nginx.org/HttpGzipModule&quot; target=&quot;_blank&quot;&gt;HttpGzipModule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IIS: &lt;a href=&quot;http://technet.microsoft.com/en-us/library/cc771003(v=WS.10).aspx&quot; target=&quot;_blank&quot;&gt;configurar la compresión HTTP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Empezamos, como todo módulo tiene unas opciones de configuración que conviene saber para aplicarlas según nuestras necesidades.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;gzip_types&lt;/strong&gt;: se indica los tipos de archivos a tratar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gzip_disable&lt;/strong&gt;: permite deshabilitar la compresión para determinados User-Agents.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gzip_comp_level&lt;/strong&gt;: nivel de compresión (0 mínimo, 9 máximo).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gzip_vary&lt;/strong&gt;: activa la respuesta &quot;Vary: Accept-Encoding&quot; en la cabecera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gzip_proxied&lt;/strong&gt;: permite la configuración de compresión a través de un proxy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gzip_buffers&lt;/strong&gt;: configuración del buffer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;para activar  y configurar del módulo se hace cambios dentro de  &lt;strong&gt;http &lt;/strong&gt;del archivo  de &lt;strong&gt;NGINX&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;abrimos el archivo nginx.conf&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo vi /etc/nginx/nginx.conf&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Dentro del archivo buscaremos las lineas que contenga gzip dentro de http { y lo descomentamos, tendría que estar algo como:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;http {
+
+         gzip on;
+         gzip_disable &quot;msie6&quot;;
+          gzip_vary on;
+          gzip_proxied any;
+          gzip_comp_level 6;
+          gzip_buffers 16 8k;
+          gzip_http_version 1.1;
+          gzip_types text/plain text/css application/json application/javascrip$
+
+}&lt;/pre&gt;
+
+&lt;p&gt;reiniciaremos el servidor&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;service nginx restart&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Eso es todo espero que miren la diferencia con la herramienta pagespeed, Saludos :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Oct 2014 17:36:49 -0500</pubDate>
+        <link>///configurar-la-compresion-gzip-en-nginx</link>
+        <guid isPermaLink="true">///configurar-la-compresion-gzip-en-nginx</guid>
+        
+        <category>nginx</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Instalar Linux, Nginx, MySQL, PHP (LEMP) en Ubuntu 14.04</title>
+        <description>&lt;p&gt;Empezare a compartir mis conocimiento sobre servidores y este sera mi primer tutorial, donde instalaremos servidor web Nginx, base de datos Mysql y PHP.&lt;/p&gt;
+
+&lt;p&gt;Este procedimiento es lo mismo en debian.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9439&quot; src=&quot;/assets/lemp-nginx-mysql-php-ubuntu.jpg&quot; alt=&quot;lemp-nginx-mysql-php-ubuntu&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Instalación de Nginx&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo apt-get update&lt;br /&gt;
+sudo apt-get install nginx&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Si quieren Instalar la ultima versión estable de nginx (ignoran las anteriores lineas)&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo apt-get install python-software-properties&lt;/p&gt;
+&lt;p&gt;sudo add-apt-repository ppa:nginx/stable&lt;/p&gt;
+&lt;p&gt;sudo apt-get update&lt;/p&gt;
+&lt;p&gt;sudo apt-get install nginx&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Ahora veremos si funciona correctamente en su dirección de dominio o IP.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;http://dominio_o_IP&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Si te aparece la siguiente imagen esta todo bien :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9435&quot; src=&quot;/assets/nginx_instalar.png&quot; alt=&quot;nginx_instalar&quot; width=&quot;569&quot; height=&quot;212&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Instalación de Mysql&lt;/h3&gt;
+
+&lt;p&gt;Ahora instalaremos base de datos Mysql con en la siguiente linea.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo apt-get install mysql-server&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Se le solicitará que facilite una contraseña de root para MySQL.&lt;/p&gt;
+
+&lt;p&gt;La base de datos MySQL ya está instalado, pero su configuración aún no es exactamente completa.&lt;/p&gt;
+
+&lt;p&gt;En primer lugar, tenemos que decirle a MySQL que genere la estructura de directorios que necesita para almacenar sus bases de datos e información. Podemos hacer esto escribiendo:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo mysql_install_db&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Ahora con la siguiente linea pediremos una configuración de seguridad que son opcionales pero que nos servirá para asegurar el servidor.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo mysql_secure_installation&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Le pedirá introducir la contraseña de root de MySQL que haya seleccionado durante la instalación.&lt;/p&gt;
+
+&lt;p&gt;A continuación, se le preguntará si desea cambiar la contraseña. Si usted es feliz con su contraseña de root de MySQL, escribe &quot;N&quot; para no y pulsa &quot;Enter&quot;. después se le pedirá que retire algunos usuarios de prueba y bases de datos. Usted sólo debe pulsar &quot;ENTER&quot; a través de estas instrucciones para eliminar la configuración predeterminada inseguras, no se preocupe mas adelante podrá configurar Mysql según lo que quiere.&lt;/p&gt;
+
+&lt;p&gt;Una vez que terminado al final les mostrara que fue instalado con éxito!&lt;/p&gt;
+
+&lt;h3&gt;Instalación de PHP&lt;/h3&gt;
+
+&lt;p&gt;Ahora tenemos Nginx como servidor web y base de datos MySQL, continuación instalaremos PHP.&lt;/p&gt;
+
+&lt;p&gt;Desde Nginx no contiene el procesamiento de PHP nativo como algunos otros servidores web, tendremos que instalar php5-fpm, lo que significa &quot;fastCGI process manager&quot;.&lt;/p&gt;
+
+&lt;p&gt;Empezaremos con la siguiente linea:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo apt-get install php5-fpm php5-mysql&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h5&gt;Configure el procesador de PHP&lt;/h5&gt;
+
+&lt;p&gt;Ahora tenemos instalado PHP, pero tenemos que hacer un cambio de configuración ligera para hacer nuestra configuración más segura.&lt;/p&gt;
+
+&lt;p&gt;Abra el archivo de configuración de php5-fpm con la siguiente linea:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo nano /etc/php5/fpm/php.ini&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Buscamos en este archivo la linea que contenga cgi.fix_pathinfo. si esta comentado lo descomentamos por predeterminado viene con un valor 1, lo cambio por 0, la linea tiene que estar de la siguiente forma:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;cgi.fix_pathinfo=0&lt;/pre&gt;
+
+&lt;p&gt;Ahora reiniciarremos nuestro procesador de PHP escribiendo:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo service php5-fpm restart&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Hasta ahora no sabemos si estamos bien, entonces vamos a configurar y ver si esta funciona correctamente.&lt;/p&gt;
+
+&lt;h4&gt;Configuración de nginx&lt;/h4&gt;
+
+&lt;p&gt;Vamos a cambiar algunas cosas para decirle a Nginx utilizar nuestro procesador de PHP para el contenido dinámico, algo parecido como Apache.&lt;/p&gt;
+
+&lt;p&gt;Entramos al siguiente archivo:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo nano /etc/nginx/sites-available/default&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;y nos mostrara como esto:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;server {
+    listen 80 default_server;
+    listen [::]:80 default_server ipv6only=on;
+
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+
+    server_name localhost;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+&lt;/pre&gt;
+
+&lt;p&gt;Tenemos que hacer un cambio y nos tiene que quedar como esto:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;server {
+    listen 80 default_server;
+    listen [::]:80 default_server ipv6only=on;
+
+    root /usr/share/nginx/html;
+    index index.php index.html index.htm;
+
+    server_name server_domain_name_or_IP;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    error_page 404 /404.html;
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+        root /usr/share/nginx/html;
+    }
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_index index.php;
+        include fastcgi_params;
+    }
+}&lt;/pre&gt;
+
+&lt;p&gt;Reiniciaremos nginx:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo service nginx restart&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Crearemos un archivo info.php, esto sera para que nos muestre todas las instalaciones que tenemos&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo nano /usr/share/nginx/html/info.php&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Ahora insertemos este código php:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;&amp;lt;?php
+phpinfo();
+?&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;y lo guardamos Ctrl + x para salir y luego YES para que se guarde.&lt;/p&gt;
+
+&lt;p&gt;abrimos nuestro navegador entraremos a nuestra dirección con el nombre de dominio o ip:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;http://dominio_o_IP/info.php&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Si esta todo bien nos mostrara de esta forma :&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9440&quot; src=&quot;/assets/php_info.png&quot; alt=&quot;php_info&quot; width=&quot;612&quot; height=&quot;622&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;si quieren eliminar el archivo info.php es con el comando rm :&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;sudo rm /usr/share/nginx/html/info.php&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align: center;&quot;&gt;Videotutorial&lt;/h4&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//www.youtube.com/embed/cRN7EnRhBJI&quot; width=&quot;100%&quot; height=&quot;450&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;
+Y listo! espero que les sirva y saludos :)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Oct 2014 11:53:34 -0500</pubDate>
+        <link>///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04</link>
+        <guid isPermaLink="true">///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04</guid>
+        
+        <category>nginx</category>
+        
+        <category>ubuntu</category>
+        
+        <category>mysql</category>
+        
+        <category>php</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Introducción a Node.js</title>
+        <description>&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Node.js es un entorno de programación que corre en el servidor basado en Javascript.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Como sabemos, Javascript es un lenguaje de programación ejecutado en el servidor por diferentes máquinas virtuales.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Node.js utiliza la máquina virtual de Google Chrome: V8 para su ejecución; es decir, tiene las mismas funcionalidades de Javascript que posee en el navegador de Google.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;
+
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-9243&quot; src=&quot;/assets/node.jpg&quot; alt=&quot;node&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/h3&gt;
+&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Lo primero a tener en cuenta cuando trabajamos en Node.js es que es un entorno que nos permite realizar aplicaciones en tiempo real. &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Esto no lo permite Javascript al ser un lenguaje asíncrono, pero si tenemos un solo proceso síncrono en nuestro código, toda nuestra aplicación será síncrona.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Node.js es capaz de hacer todo lo que deseemos, pero en algunos puntos no se la llevara muy bien, siempre debemos enfocarnos en que su principal función es realizar aplicaciones en tiempo real.&lt;/span&gt; &lt;span style=&quot;color: #4d4d4d;&quot;&gt;NPM (Node Package Modules) es el gestor de paquetes en Node.js por excelencia. Es de fácil uso, pensado para programadores.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;En NPM tenemos diversos comandos, el principal es “install” con el cual podemos instalar paquetes de manera global o local.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Entre lo que podemos hacer está: &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;- Actualizar nuestro archivo package.json y/o instalar las dependencias que contiene este.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;- Buscar paquetes&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;- En que ya viene incluido en la instalación de las últimas versiones de Node.js.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Su estructura es:&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;npm &amp;lt;comando&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Para mas informacion consulta la pagina de npm: &lt;a style=&quot;font-weight: 600; color: #0099cc;&quot; href=&quot;http://npmjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://npmjs.org&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3&gt;¿Qúe es el archivo package.json?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Package.json será el archivo que identificara nuestro proyecto en este guardaremos el nombre de la aplicación, la versión y las dependencias de la siguiente forma.&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;{
+    &quot;name&quot;: &quot;nombre de la app&quot;,
+    &quot;version&quot;: &quot;0.0.1&quot;,
+    &quot;dependencies&quot;:
+        &quot;express&quot;: &quot;*&quot;
+}&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;En dependencies colocarás el nombre de la dependencia y la versión de la misma para que luego cuando pases tu proyecto a otro colaborador.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Él sólo tendrá que ejecutar en terminal:&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;npm install&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Y todas las dependencias se instalarán automágicamente.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Ahora cada vez que instales una nueva dependencia deberás ejecutar el siguiente comando para que dicho archivo se actualice:&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;npm install  &amp;lt;paquete&amp;gt; --save&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Y cuando desees instalar un paquete de manera global, solo tendrás que hacer:&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;npm install -g &amp;lt;paquete&amp;gt;&lt;/pre&gt;
+
+&lt;h3&gt;niciando con node.js&lt;/h3&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Para iniciar con node.js depues de haber creado nuestro package.json debemos crear el archivo Javascript que hara el papel del servidor, en este caso lo llamaremos server.js, pero el nombre no importa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;En este archivo importamos todas las dependencias  a usar y colocaremos toda la lógica que irá del lado del servidor, un ejemplo de este puede ser:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;var express = require(&#39;express&#39;);&lt;/pre&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;var server = express();
+ 
+server.get(&#39;/&#39;, function (req, res) {
+           res.send(&#39;Hello World&#39;);
+});
+ 
+server.listen(3000);
+console.log(&#39;Servidor corriendo en http://127.0.0.1:3000&#39;);&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Con este servidor le estamos diciendo a node que al recibir un request en la  url raíz del proyecto, devuelva un hola mundo; pero veamos de manera detallada para que sirve cada parte de nuestro código.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;Require() &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→ Con require(), le decimos a nuestro server que librerías Node vamos a cargar; librerías que previamente ya están en las dependencias de nuestro proyecto.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;En nuestro servidor debemos definir qué hacer con las peticiones que llegan de los usuarios (GET - POST), en este caso usamos la ayuda de “Express.js”; si no se define qué hacer con las peticiones tendríamos un server corriendo que no hace nada.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;.get()&lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; →  Le decimos al server que hacer cuando recibe una petición GET en el root de nuestra aplicación, por medio de funciones que siempre van a recibir como parámetros una petición del cliente (req) y una respuesta del servidor (res).&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;res.send() &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→ Le decimos que haga un response con la cadena “hola mundo”.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;server.listen(xxxx) &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→Le decimos al servidor el puerto en el que debe escuchar peticiones.&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Sep 2014 18:17:31 -0500</pubDate>
+        <link>///introduccion-a-node-js</link>
+        <guid isPermaLink="true">///introduccion-a-node-js</guid>
+        
+        <category>nodejs</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>¿cuál es mejor? Blogger vs wordpress</title>
+        <description>&lt;p&gt;Muchas personas buscan crear un blog y el problema esta en eligir la plataforma adecuada, existen blogger, wordpress.com y wordpress.org que son los más reconocidos y más usados por los usuarios, Hay que saber diferenciar entre un wordpress .com y .org ya que son diferentes servicios
+
+que los mostrare en las imágenes, antes voy a explicarle en lo personal de cual eligir, yo he probado todos estos servicios sin duda blogger y wordpress.com son excelentes plataformas pero yo prefiero blogger por el simple hecho de pertenecer a google y lo dejé wordpress.com ya que en la comparación no hay mucha diferencia que me afecte, ahora wordpress.org es otro tipo de servicios que requiere un propio dominio y hosting que con esto podemos personalizar nuestro temas, prácticamente puede hacer sitios web  complejas pero con limitaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9021&quot; src=&quot;/assets/mejor-wordpress-o-blogger.jpg&quot; alt=&quot;mejor-wordpress-o-blogger&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para mi sin duda primero es blogger y si quiero un blogs mas profesional elijo wordpress.org, sobre los recursos existen muchos sitios tanto para blogger y wordpress, uno de los sitios reconocidos para blogger es&lt;a href=&quot;http://bloggertrucos.com/&quot; target=&quot;_blank&quot; rel=&quot;dofollow”&quot;&gt; &lt;span style=&quot;color: #000000;&quot;&gt;Bloggertrucos&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;WORDPRESS.COM VS BLOGGER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9024&quot; src=&quot;/assets/wordpress-vs-blogger.jpg&quot; alt=&quot;wordpress-vs-blogger&quot; width=&quot;619&quot; height=&quot;1736&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;WORDPRESS.ORG VS BLOGGER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9025&quot; src=&quot;/assets/infografia_wordpress_vs_blogger.jpg&quot; alt=&quot;infografia_wordpress_vs_blogger&quot; width=&quot;600&quot; height=&quot;826&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Jul 2014 18:20:18 -0500</pubDate>
+        <link>///cual-es-mejor-blogger-vs-wordpress</link>
+        <guid isPermaLink="true">///cual-es-mejor-blogger-vs-wordpress</guid>
+        
+        <category>wordpress</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Google invierte $50 millones dolares para que las niñas programen</title>
+        <description>&lt;p&gt;Google puso en marcha una iniciativa con 50 millones de dólares para conseguir que las niñas se interesen en la programación o Computer Science que menciona Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8865&quot; src=&quot;/assets/chicas-de-google.jpg&quot; alt=&quot;chicas-de-google&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Google esta pidiendo que más mujeres entren a la informática. La compañía anunció un nuevo programa llamado  &lt;a href=&quot;https://www.madewithcode.com/&quot; target=&quot;_blank&quot;&gt;Made with Code&lt;/a&gt;, que incluye una mezcla de proyectos sobre ciencias de la computación, las asociaciones con las organizaciones juveniles y $ 50 millones en financiación de Google dice que va a ayudar a que más mujeres se involucren en el campo de la informática.&lt;/p&gt;
+
+&lt;p&gt;Más de 150 chicas de secundaria asistieron al evento, incluyendo los de Girl Scouts de los EE.UU., &lt;span style=&quot;color: #555555;&quot;&gt;Black Girls Code&lt;/span&gt; y Girls Who Code. Kaling, escritora y actriz, maestro de ceremonias el estreno, que reunió en Google vicepresidente Megan Smith, Clinton vice Presidente de la Fundación Clinton Chelsea, iLuminate creador Miral Kotb, Director de Fotografía de Pixar Danielle Feinberg y cofundador Innovación UNICEF Erica Kochi.&lt;/p&gt;
+
+&lt;p&gt;Algunos de los proyectos que se mostraron en el evento&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8866&quot; src=&quot;/assets/061914_made_with_code_8.jpg&quot; alt=&quot;061914_made_with_code_8&quot; width=&quot;850&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Miral Kotb, creador y CEO de iLuminate, muestra uno de los bailarines. Todos los trajes de los bailarines han programado iluminación. Dos niñas en la primera fila, abajo a la derecha, se controla a distancia el traje en una tableta.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8867&quot; src=&quot;/assets/061914_made_with_code_3-1.jpg&quot; alt=&quot;061914_made_with_code_3 (1)&quot; width=&quot;850&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2012 ganador Feria de Ciencias Google Bretaña Wenger, segundo desde la derecha, se mezcla con otros asistentes.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8868&quot; src=&quot;/assets/ninas-programando.jpg&quot; alt=&quot;ninas programando&quot; width=&quot;850&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Un asistente interactúa con Firewall, una instalación interactiva, programada medios por Michael P. Allison y Aarón Sherwood. Cuanto más se presiona contra la superficie spandex, el más intenso de los diseños de luz y la música se convierten.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8869&quot; src=&quot;/assets/brasaletes-imprimidos-3d.jpg&quot; alt=&quot;brasaletes imprimidos 3d&quot; width=&quot;850&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una chica diseña una pulsera - que será en 3D impreso por Shapeways, un mercado de impresión en 3D basada en Nueva York y la comunidad - como parte del stand de demostración de accesorios.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8870&quot; src=&quot;/assets/pulsera-3d.jpg&quot; alt=&quot;pulsera 3d&quot; width=&quot;850&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una pulsera impresa en 3D.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jun 2014 05:17:12 -0500</pubDate>
+        <link>///google-invierte-50-millones-dolares-para-que-las-ninas-programen</link>
+        <guid isPermaLink="true">///google-invierte-50-millones-dolares-para-que-las-ninas-programen</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>10 plataformas excelentes para crear aplicaciones móviles</title>
+        <description>&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8848&quot; src=&quot;/assets/crear-aplicaciones-moviles.jpg&quot; alt=&quot;crear-aplicaciones-moviles&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si esta buscando crear aplicaciones móviles sea para un negocio, blog, producto o servicio y tiene problemas con la inversión de tiempo y dinero que lo desanima, les mostrare plataformas que pueden ayudarle con estos problemas.&lt;/p&gt;
+
+&lt;p&gt;La buena noticia es que la entrada en el mercado móvil ya no necesariamente requiere de miles de dólares y meses de trabajo. Hay muchas plataformas disponibles para ayudarle a construir una aplicación de forma rápida y sin que tenga problemas con la programación.&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;1. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://appery.io/&quot; target=&quot;_blank&quot;&gt;Appery.io&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8850&quot; src=&quot;/assets/1-Appery.jpg&quot; alt=&quot;1-Appery&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appery es un móvil constructor aplicación basada en la nube que puede utilizar para crear aplicaciones para Android, iOS y Windows Phone, e incluye Apache Cordova (Gap teléfono) con acceso a sus componentes integrados.&lt;/p&gt;
+
+&lt;p&gt;Dado que el constructor se ejecuta en la nube, no hay nada que instalar o descargar, y es fácil de empezar a trabajar rápidamente. Incluye un editor visual utilizando componentes de arrastrar y soltar para crear la interfaz de usuario. Puede conectarse a cualquier API REST y utilizarlo en su aplicación, y de inmediato agregar una base de datos en nube y back-end para su aplicación, si usted necesita para almacenar datos.&lt;/p&gt;
+
+&lt;p&gt;Usted puede agregar la funcionalidad de gran alcance con el catálogo de plugins Appery, o crear sus propios plugins privados personalizados para utilizar en tus aplicaciones. La colaboración es sencilla, lo que le permite compartir su proyecto móvil con los equipos de desarrollo, los usuarios de negocios y clientes en tiempo real.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Gratis y de pago que llegar hasta los $180 por mes.&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;2. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://mobileroadie.com/&quot; target=&quot;_blank&quot;&gt;Mobile Roadie&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8851&quot; src=&quot;/assets/2-MobileRoadie.jpg&quot; alt=&quot;2-MobileRoadie&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mobile Roadie es un creador de aplicaciones que permite a cualquiera crear y administrar sus propias iOS o Android. La plataforma soporta todos los tipos de medios de comunicación, con la importación automática de RSS, Twitter o Google News palabras clave, y una pared del ventilador se actualicen automáticamente a través del cual los usuarios pueden chatear entre sí en tiempo real.&lt;/p&gt;
+
+&lt;p&gt;Puede utilizar la conexión Mobile Roadie conexion aplicación para obtener una vista previa de su aplicación con precisión, al igual que los usuarios harían en sus dispositivos. La aplicación también le guiará en el proceso de envío, con Mobile Roadie comprobar la calidad y la pertinencia de su contenido.&lt;/p&gt;
+
+&lt;p&gt;Usted puede empujar directamente el contenido a su aplicación y extraer contenido de la misma para su propio sitio web o blog. El API es independiente del idioma, por lo que puede extraer datos en una variedad de formatos, incluyendo XML, JSON, PHP, CSV y HTML. Usted puede diseñar fácilmente un aspecto personalizado para su aplicación y aplicar eso a todas las plataformas, y utilizar el conjunto de herramientas de marketing una vez que se lanza la aplicación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Los planes es partir desde los $125 por mes (Core) y llegan hasta $ 667 por mes (Pro).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8852&quot; src=&quot;/assets/3-AppBuilder.jpg&quot; alt=&quot;3-AppBuilder&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;TheAppBuilder proporciona una suite de aplicaciones para adaptarse a los empleados, los clientes, los eventos y los folletos, con dos enfoques diferentes disponibles. Usted puede construir la aplicación utilizando el kit de herramientas en línea, y, o bien la formación impartida o la misma TheAppBuilder trabajará con usted para definir y construir la estructura de la aplicación y rellenarla con el contenido inicial.&lt;/p&gt;
+
+&lt;p&gt;Usando el dedicado AppLibrary, puede proporcionar a sus usuarios con una ventana en múltiples aplicaciones e incluso personalizarlo con su propia marca. Usted puede proteger aplicaciones tanto públicos como privados, con los nombres de usuario y contraseñas, y distribuirlos a través de la tienda de aplicaciones, haciendo uso de la integración de Active Directory de TheAppBuilder para permitir inicio de sesión con credenciales existentes y grupos de usuarios.&lt;/p&gt;
+
+&lt;p&gt;Actualización de la estructura y el contenido de sus aplicaciones es fácil, incluso después de ir a vivir, porque usted puede hacer actualizaciones ilimitadas y publicar en múltiples plataformas móviles en un solo clic. La plataforma soporta nativa iPhone, iPad y Android, con actualizaciones de publicarla dentro de los 60 segundos de la presentación de un cambio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; Precio disponible a petición&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;4. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.goodbarber.com/&quot; target=&quot;_blank&quot;&gt;Buena Peluquería&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8853&quot; src=&quot;/assets/4-GoodBarber.jpg&quot; alt=&quot;4-GoodBarber&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Buena Peluquería proporciona una plataforma para construir aplicaciones de iPhone y Android, que le permite tomar el control de todos los detalles de su aplicación sin producir una sola línea de código. Nueve coloridos plantillas de diseño, altamente personalizables están disponibles para empezar, con 350 hermosos iconos y acceso a más de 600 Google Fuentes.&lt;/p&gt;
+
+&lt;p&gt;Junto con las aplicaciones nativas de iPhone y Android, tiene una versión móvil libre de la tela, que los usuarios acceden desde los navegadores de sus teléfonos. También puede vincular esto a su nombre de dominio, si quiere que se convierta en la versión móvil oficial de su sitio web.&lt;/p&gt;
+
+&lt;p&gt;Usted recibe información visual inmediata cada vez que ajuste los parámetros de la aplicación. Enviar, notificaciones push recurribles únicas y convertir a sus lectores en contribuyentes al permitirles enviar artículos, fotografías y videos. También puede organizar su aplicación y añadir secciones que van desde vídeos, fotos, sonidos, eventos en vivo y mucho más.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Los planes comienzan en $ 16 por mes y llegan hasta $ 32 por mes para el Plan Completo&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;5. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.appypie.com/&quot; target=&quot;_blank&quot;&gt;Appy Pie&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8854&quot; src=&quot;/assets/5-AppyPie.jpg&quot; alt=&quot;5-AppyPie&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appy Pie es una herramienta móvil de DIY basado en la nube de aplicaciones de creación que permite a los usuarios sin conocimientos de programación para crear una aplicación para Windows, Android y iOS, y publicarlo en Google Play o iTunes. No hay nada que instalar o transferir - sólo tienes que arrastrar y soltar las páginas para crear su propia aplicación móvil en línea. Una vez que esté completo, recibirá una aplicación híbrida basada en HTML5 que funciona con todas las plataformas, incluyendo Blackberry. Todas las revisiones se realizan en tiempo real, con la capacidad de enviar notificaciones push, obtener beneficios económicos con los anuncios, ver análisis en vivo, y la ubicación pista con GPS. También puede integrar la alimentación de redes sociales, blogs, sitios web, de audio, de radio y más.&lt;/p&gt;
+
+&lt;p&gt;El planificador cita es especialmente útil para las empresas, tales como médicos, salones de belleza o spas con características de contacto como una llamada touch, los códigos QR incluidos. El uso de la página de códigos puede incrustar código personalizado y iframes embed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Planes desde Gratis y llegan hasta $ 33 por mes para Platinum&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;6. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.appmachine.com/&quot; target=&quot;_blank&quot;&gt;AppMachine&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8855&quot; src=&quot;/assets/6-AppMachine.jpg&quot; alt=&quot;6-AppMachine&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;AppMachine es una plataforma fácil de usar para crear y diseñar aplicaciones nativas profesionales, tanto para iOS y Android. Mediante la interfaz de arrastrar y soltar, puede combinar diferentes bloques de construcción que ofrecen una variedad de características, tales como información, fotos y video. Los bloques de construcción también permiten vincular su aplicación para Facebook, Twitter, o tiendas en línea. Usted puede diseñar la aplicación en su propio estilo único y elegir sus rutas de navegación, los colores, las fuentes y los iconos, de tomar el control completo de diseño y viendo su progreso a través de la vista previa de.&lt;/p&gt;
+
+&lt;p&gt;Pruebe su aplicación como lo construyes y comprobar sus progresos en su ordenador, móvil o tablet. Una vez que su aplicación está totalmente probado y listo para salir, puede publicar y promocionar su aplicación, y analizar los datos de los usuarios. AppMachine se encarga de todo lo necesario para conseguir su aplicación en App Store de Apple y Google Play.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio :&lt;/strong&gt; Los planes son solo pago solamente, y comienzan a partir de $ 499 (magnífico) y llegan hasta $ 899 (Diseñador). A $ 1.299 opción (desarrollador) estará disponible en breve.&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;7. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://gamesalad.com/&quot; target=&quot;_blank&quot;&gt;GameSalad&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8856&quot; src=&quot;/assets/7-GameSalad.jpg&quot; alt=&quot;7-GameSalad&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GameSalad le permite crear y publicar juegos para una variedad de plataformas, incluyendo iOS, Android, HTML5 y OS X. La interfaz de arrastrar y soltar le permite empezar a trabajar rápidamente, sin necesidad de ningún conocimiento de programación.&lt;/p&gt;
+
+&lt;p&gt;El creador de juegos cuenta con una escena y editor de actor, donde pasa la mayor parte de su tiempo de creación de juego, la creación de los actores en una escena y la creación de atributos, imágenes, sonidos y navegar entre los actores. El foro de la comunidad activa es una gran ventaja, con acceso a la ayuda y el asesoramiento de otros diseñadores de juegos independientes.&lt;/p&gt;
+
+&lt;p&gt;GameSalad se asoció recientemente con Amazon para ofrecer el acceso a las opciones de desarrollo específicamente optimizados para la plataforma Kindle Fire, incluyendo la integración de arrastrar y soltar con la compra dentro de la aplicación y las API GameCircle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Planes desde Gratis y llegan hasta $ 299 por año por Pro&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;8. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.biznessapps.com/&quot; target=&quot;_blank&quot;&gt;BiznessApps&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8857&quot; src=&quot;/assets/8-BiznessApps.jpg&quot; alt=&quot;8-BiznessApps&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;BiznessApps proporciona una plataforma para ayudar a crear aplicaciones móviles para empresas, un proceso muy simple. Se ofrece una gran cantidad de características, incluyendo pedidos de alimentos, carro de compras, programas de fidelización, el contenido dinámico, integraciones de terceros, las notificaciones push, análisis integral y más.&lt;/p&gt;
+
+&lt;p&gt;El sistema de gestión de contenidos fácil de usar le permite crear una aplicación en cuestión de minutos, y personaliza todo con diseños pre-construidos o fotografías propias. También hay vistas previas en tiempo real para controlar su evolución como a diseñar y desarrollar tu aplicación.&lt;/p&gt;
+
+&lt;p&gt;Usted puede actualizar al instante tu aplicación en línea, y modificar todo el interior, sin tener que enviar su aplicación para una larga actualización con Apple o Google. Hay seminarios semanales sobre cómo construir hermosas aplicaciones móviles utilizando la plataforma BiznessApps, junto con el acceso a cientos de artículos de tutoría, para ayudar a que el proceso sea aún más fácil.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio&lt;/strong&gt; : Los planes comienzan en $ 29 por mes para el sitio web móvil y llegan hasta $ 59 por mes para aplicaciones móviles&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;9. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.appmakr.com/&quot; target=&quot;_blank&quot;&gt;AppMakr&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8858&quot; src=&quot;/assets/9-AppMakr.jpg&quot; alt=&quot;9-AppMakr&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;AppMakr es una plataforma de creación de aplicaciones de bricolaje que permite iOS artesanales cualquiera, Android y HTML5 aplicaciones, sin ningún conocimiento de codificación requiere. Fue fundada en 2009, y recientemente adquirida por los monos infinitos , que ahora forman una de las mayores plataformas de aplicaciones de edición de bricolaje de todo el mundo.&lt;/p&gt;
+
+&lt;p&gt;Usted puede hacer tantas aplicaciones como desee, con actualizaciones ilimitadas, y utilizar una serie de características, incluyendo las notificaciones push, galerías de alta resolución de las fotos, actualizaciones en vivo, música y streaming de vídeo, salas de chat, integración de Google Maps, Calendario de eventos compartidos, en aplicación de compras, y mucho más.&lt;/p&gt;
+
+&lt;p&gt;Se hace un seguimiento de todas sus aplicaciones a través del cuadro de mandos, fácilmente personalizar aspecto y la funcionalidad de su aplicación, agregar contenido con pestañas, vista previa de la aplicación en tiempo real y publicarlo en los mercados con un solo clic.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio :&lt;/strong&gt; Planes desde gratis y subir a una tarifa única de $ 99 para la libre publicación&lt;/p&gt;
+
+&lt;h2 class=&quot;title&quot; style=&quot;color: #000000;&quot;&gt;10. &lt;a style=&quot;color: #00aeef;&quot; href=&quot;http://www.shoutem.com/&quot; target=&quot;_blank&quot;&gt;ShoutEm&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8859&quot; src=&quot;/assets/10-ShoutEm.jpg&quot; alt=&quot;10-ShoutEm&quot; width=&quot;850&quot; height=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ShoutEm ofrece un constructor de aplicación con gestión completa de contenidos, potentes herramientas de participación de los usuarios y las opciones de monetización, junto con un proceso de publicación sin fisuras, para proporcionar una solución robusta para la mayoría de los requisitos. El constructor de interfaces ofrece muchas opciones de personalización, y cada aplicación puede ser perfectamente integrado con las fuentes de contenido existentes, como WordPress, Foursquare, Facebook, Twitter, SoundCloud y más. Las múltiples opciones de monetización significa que usted puede crear rápidamente un flujo de ingresos a partir de su aplicación, proporcionando una experiencia de comercio electrónico, suscripciones, ofertas y cupones de aplicación, con el apoyo de todas las principales redes de anuncios incluidos.&lt;/p&gt;
+
+&lt;p&gt;Usted puede publicar sus aplicaciones bajo su cuenta de desarrollador tanto iTunes y Google Play, y actualizar su aplicación o el contenido en tiempo real. ShoutEm también ofrece actualizaciones automáticas regulares, para asegurar que su aplicación es siempre por delante de nuevo iOS y actualizaciones de Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio :&lt;/strong&gt; Los planes comienzan en $ 19.90 por mes y llegan hasta $ 119,90 por mes, pero es Ilimitado.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Jun 2014 23:16:53 -0500</pubDate>
+        <link>///plataformas-para-crear-aplicaciones-moviles</link>
+        <guid isPermaLink="true">///plataformas-para-crear-aplicaciones-moviles</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>El mejor lenguaje de programación</title>
+        <description>&lt;p&gt;Así que quieres saber ¿Cuál es el mejor lenguaje de programación?.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8469&quot; src=&quot;/assets/mejor-lenguaje-de-programacion.jpg&quot; alt=&quot;mejor-lenguaje-de-programacion&quot; width=&quot;680&quot; height=&quot;363&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero, antes de eso, vamos a determinar la palabra &quot;mejor&quot; .&lt;/p&gt;
+
+&lt;p&gt;Para algunas personas, el mejor lenguaje de programación es el que se gana más dinero, es el que puede hacer cosas mejores, es el lenguaje con alta demanda laboral y se puede conseguir un trabajo rápidamente.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto, hay que preguntarse a sí mismo. ¿Qué quieres decir &quot;mejor&quot;? ¿Cuál es su objetivo?&lt;/p&gt;
+
+&lt;p&gt;¿Su objetivo es cobrar más? o construir cosas interesantes? o estar en alta demanda? ¿o algo más? Por ejemplo, se puede ver COBOL es un lenguaje bien pagado, pero no tiene alta demanda. Por otro lado los desarrolladores de WordPress y PHP tienen una gran demanda, pero la mayoría de los trabajos no es bien remunerado. Así que la palabra &quot;mejor&quot; es relativo.&lt;/p&gt;
+
+&lt;p&gt;En este artículo, voy a mostrar varios aspectos de los lenguajes de programación y su demanda para este 2014.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;lenguajes de programación mas populares 2014&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Si nos fijamos en &lt;a href=&quot;http://www.comoprogramar.org/ranking-lenguajes-de-programacion/&quot; target=&quot;_blank&quot;&gt;los lenguajes de programación &lt;/a&gt;&lt;a href=&quot;http://www.comoprogramar.org/ranking-lenguajes-de-programacion/&quot; target=&quot;_blank&quot;&gt;más populares &lt;/a&gt; ,usted encontrará que C, C++, Java y Objective-C son los que destacan. Sobre la base de la investigación y las estadísticas por Udemy, TIOBE y langpop, la lista siguiente se puede utilizar para enumerar los 10 lenguajes de programación más utilizado.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.&lt;/strong&gt; C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.&lt;/strong&gt; Java&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.&lt;/strong&gt; C++&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4.&lt;/strong&gt; Objective-C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5.&lt;/strong&gt; C#&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;6.&lt;/strong&gt; php&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7.&lt;/strong&gt; (Visual) Basic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8.&lt;/strong&gt; Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;9.&lt;/strong&gt; Javascript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10.&lt;/strong&gt; Transact-SQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;&lt;strong&gt;lenguajes con más demanda.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Vamos a echar un vistazo a los lenguajes más demandados. ComputerWorld &lt;a href=&quot;http://www.computerworld.com/slideshow/detail/98085&quot; target=&quot;_blank&quot;&gt;publicó&lt;/a&gt; un informe en 11 de diciembre 2013 de las 10 lenguajes que son mejor demandadas por los empleadores en las principales ciudades de Estados Unidos.&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Lenguaje&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Empleos&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;Ciudad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;SQL&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;98,454&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;New York, DC, San Francisco, Boston, Chicago&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Java&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;66,485&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;New York, DC, San Jose, San Francisco, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;HTML&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;45,456&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;New York, DC, San Francisco, Boston, LA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;JavaScript&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;43,189&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;New York, DC, San Francisco, Boston, Silicon Valley&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C++&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;32,018&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;Santa Clara, Seattle, New York, San Francisco&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C#&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;31,936&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;Seattle, New York, Boston, Chicago, Atlanta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;XML&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;31,431&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;DC, New York, San Francisco, Boston, Atlanta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;24,801&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;Santa Clara, Seattle, New York, San Francisco, San Diego&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Perl&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;20,579&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;San Jose, New York, Seattle, San Francisco, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Python&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;19,627&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;408&quot;&gt;Mountain View, San Francisco, New York, Seattle, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Estos datos concuerda con  &lt;a href=&quot;www.indeed.com&quot; target=&quot;_blank&quot;&gt;Indeed.com &lt;/a&gt;(también presente en Español) ha &lt;b&gt;analizado los cientos de miles ofertas de trabajo de su base de datos&lt;/b&gt; en los últimos meses para ofrecer un &lt;b&gt;ranking de los lenguajes&lt;/b&gt; y entornos de programación más demandados.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Lenguajes mejor pagados&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Los salarios de los programadores por lo general dependen de varios factores tales como la ubicación, la experiencia, las habilidades y la empresa. Por ejemplo, Juniper Networks en la misma ciudad paga mucho más que Microsoft con la misma experiencia y habilidades.&lt;/p&gt;
+
+&lt;p&gt;Vamos a referirnos a un ComputerWorld lista &lt;a href=&quot;http://www.computerworld.com/slideshow/detail/98085&quot;&gt;publicada&lt;/a&gt; el 11 de junio de 2013 en los 10 lenguajes de programación más pagados en las principales ciudades de Estados Unidos.&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Lenguaje&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;Salario&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;Ciudad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Java&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$95,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;New York, DC, San Jose, an Francisco, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C++&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$94,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;Santa Clara, Seattle, New York, San Francisco&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$93,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;Santa Clara, Seattle, New York, San Francisco, San Diego&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Perl&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$93,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;San Jose, New York, Seattle, San Francisco, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;XML&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$92,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;DC, New York, San Francisco, Boston, Atlanta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;C#&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$91,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;Seattle, New York, Boston, Chicago, Atlanta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;SQL&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$90,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;New York, DC, San Francisco, Boston, Chicago&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;JavaScript&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$88,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;New York, DC, San Francisco, Boston, Silicon Valley&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;Python&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$83,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;Mountain View, San Francisco, New York, Seattle, Boston&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;90&quot;&gt;HTML&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;114&quot;&gt;$81,000&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;384&quot;&gt;New York, DC, San Francisco, Boston, LA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 style=&quot;text-align: left;&quot;&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;strong&gt;Lenguajes para plataformas móviles&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;En la actualidad a los desarrolladores les llama la atención lo moderno como Mobile, Big Data y Cloud que tienen una gran demanda.&lt;/p&gt;
+
+&lt;p&gt;Como se puede ver en las estadísticas publicadas por StatCounter, Android lidera todas las plataformas móviles, seguido de iOS. Obviamente Java y Objective-C son los lenguajes más utilizados para el desarrollo móvil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-8468&quot; src=&quot;/assets/MobileOS.jpg&quot; alt=&quot;MobileOS&quot; width=&quot;600&quot; height=&quot;388&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Lenguajes de programación versátil&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Fuera de los lenguajes de programación que figuran como C, C++, Java y C#, probablemente el más versátil entre todos ellos son C++ y C#. El uso de C# se puede desarrollar aplicaciones de Windows, aplicaciones Web, componentes de Windows para almacenar aplicaciones, aplicación de Windows Phone e incluso aplicaciones móviles como iOS y Android.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Conclusión&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;El mejor lenguaje de programación es relativo a lo que busca. En este artículo, hablamos de varios aspectos de los lenguajes de programación. Claramente, Mobile, Big Data, usable y Cloud son las tendencias principales para 2014. Espero les haya gustado este artículo y espero que comenten o aporten alguna información.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Mar 2014 09:36:49 -0500</pubDate>
+        <link>///mejor-lenguaje-de-programacion</link>
+        <guid isPermaLink="true">///mejor-lenguaje-de-programacion</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

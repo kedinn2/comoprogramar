@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<header id="post-header">
+    <h1 id="post-title">{{ page.category }} : </h1>
+</header>
+
+
+
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+
+
+
+
+
+
+<div id="post-content">
+    {% if site.categories[page.category] %}
+        {% for post in site.categories[page.category] %}
+            
+            {% if forloop.first %}
+                <h3>{{ post_year }}</h3><div class="list-group">
+            {% endif %}
+			
+            {% if forloop.first == false %}
+                {% assign previous_index = forloop.index0 | minus: 1 %}
+                {% capture previous_post_year %}{{ site.categories[page.category][previous_index].date | date: '%Y' }}{% endcapture %}
+                {% if post_year != previous_post_year %}
+                    </div><h3>{{ post_year }}</h3><div class="list-group">
+                {% endif %}
+            {% endif %}
+			
+            <a href="{{ post.url }}/" class="list-group-item">
+                <h4 class="list-group-item-heading">{{ post.title }}</h4>
+            </a>
+
+            {% if forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <p>No hay contenido.</p>
+    {% endif %}
+</div>

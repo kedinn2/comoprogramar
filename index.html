@@ -11,13 +11,10 @@ description: "Aprendiendo y ensenando"
             <a href="{{ post.url }}"><img src="{% if page.url-cover %}{{ page.url-cover }}{% else %}{% asset_path default-thumbnail.jpg %}{% endif %}" alt="img"></a>
         </div>
         <div class="content">
-            <div class="cat">
-                <a href="#">Mustreads</a>
-            </div>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p class="excerpt-entry">
-
-                        {% if post.subtitle %}
+                {{ post.excerpt }}
+            {% if post.subtitle %}
             <h3 class="post-subtitle">
                 {{ post.subtitle }}
             </h3>
@@ -25,7 +22,7 @@ description: "Aprendiendo y ensenando"
 
             </p>
             <div class="activity">
-                <span class="views">{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span><span class="comment"><a href="#">{{ post.date | date: "%B %-d, %Y" }}</a></span>
+                <span class="views">{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</span><span class="comment"><a href="#">{{ post.date | date: "%B %-d, %Y" }}</a></span>
             </div>
         </div>
     </article>
@@ -39,12 +36,12 @@ description: "Aprendiendo y ensenando"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Anterior</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &rarr;</a>
     </li>
     {% endif %}
 </ul>

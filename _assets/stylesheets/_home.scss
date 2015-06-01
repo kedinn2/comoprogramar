@@ -3167,7 +3167,18 @@
 		height: 60px;
 		background: url(../images/loading.png);
 	}
-
+	.etiqueta a{
+		  display: inline-block;
+		  padding: 2px 5px;
+		  color: #b7b7b7;
+		  margin-right: 6px;
+		  line-height: 31px;
+		  -webkit-border-radius: 2px;
+		  -moz-border-radius: 2px;
+		  -o-border-radius: 2px;
+		  font-size: 16px;
+		  color: #757575
+	}
 /* Article Detail
 -------------------------------------------------------------- */
 	.post-wrap.post-single {
