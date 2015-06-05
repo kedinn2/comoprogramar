@@ -16,3 +16,6 @@ gem 'jekyll-archives'
 gem 'therubyracer', '~> 0.12.2'
 gem 'rake', '~> 10.4.2', require: false
 gem 'activesupport', '~> 4.2.1', require: false
+gem 'capistrano-rvm'
+gem 'capistrano-bundler'
+gem 'rvm1-capistrano3', require: false
