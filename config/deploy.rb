@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :application, 'comoprogramar.org'
 set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
-set :deploy_to, '/var/www/monvex.com/html'
+set :deploy_to, '/var/www/comoprogramar.org/html'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

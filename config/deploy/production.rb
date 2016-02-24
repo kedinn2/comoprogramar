@@ -51,7 +51,7 @@
 # ------------------------------------
  server '104.236.241.56',
    user: 'root',
-   roles: %w{comoprogramar},
+   roles: %w{comoprogramar}
 #   ssh_options: {
 #     user: 'user_name', # overrides user setting above
 #     keys: %w(/home/user_name/.ssh/id_rsa),
