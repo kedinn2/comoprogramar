@@ -13,15 +13,20 @@ youtube_username:  cprogramar
 img-default: assets/default-cover.png
 
 permalink: /:title
+gems: [jekyll-paginate]
 paginate: 8
+paginate_path: "pagina:num"
+
 
 
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: true
+
 redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-port: 4001
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+port: 4023
 
 assets:
   dirname: assets

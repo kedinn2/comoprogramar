@@ -122,9 +122,9 @@ a:active,
 .navigation-panel .close-nav:hover,
 .contact-page .contact-social li:hover i,
 .about-page .about-links li a:hover {
-  color: #0C98CF;
+  color: #C3BA3E;
 }
-
+ 
 button,
 input[type="button"],
 input[type="reset"],
@@ -141,15 +141,15 @@ input[type="submit"],
 .tabs.style2 .content-tab.scroll li:hover:before,
 .about-page .about-twitter .follow-us,
 .flex-control-nav li a.flex-active {
-    background-color: #2D3033;
+    background-color: #4C5650;
 }
-
+ 
 .floatPanel #sidebar2 {
-  border-right: 14px solid #0C98CF;
+  border-right: 14px solid #C3BA3E;
 }
 
 .gn-gallery #gn-carousel ul.slides li.flex-active-slide img {
-  border: 2px solid #0C98CF;
+  border: 2px solid #C3BA3E;
 }
 
 /* Darker Color */
@@ -168,7 +168,7 @@ input[type="submit"],
 .widget-most-popular li a:hover,
 .most-popular li a:hover,
 .tabs.style2 .content-tab.scroll li:hover:before {
-  color: #0C98CF;
+  color: #C3BA3E;
 }
 
 /* Brighter Color */
@@ -178,29 +178,6 @@ input[type="submit"],
   color: #56B3D8;
 }
 
-/* Hover-Button Color */
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
-button:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
-button:active,
-input[type="button"]:active,
-input[type="reset"]:active,
-input[type="submit"]:active,
-.error-wrap #searchsubmit:hover,
-.posts .load-comment a:hover,
-.gn-button:hover,
-.gn-button:focus,
-.gn-button:active,
-.gn-button.hover,
-.gn-button.press,
-.gn-button.pause {
-  background-color: #db260a;
-}
 
 
 
@@ -366,6 +343,40 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+
+.button-item {
+  float: left;
+  margin-bottom: 35px;
+  margin-right: 12px;
+  text-align: center;
+}
+.gn-button {
+  background:transparent;
+  display: inline-block;
+  color: #D7BE3E;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-right: 7px;
+  padding: 0 47px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #D7BE3E;
+}
+.gn-button:hover {
+ background-color: transparent !important;
+}
+
+
 button,
 input,
 optgroup,
@@ -462,10 +473,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #4C5650;
 
 }
-input,
+input, 
 button,
 select,
 textarea {

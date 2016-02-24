@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  ¿Qué lenguaje de programación debo aprender primero?
-date:   2014-11-04 04:46:56
+title:  Plugin para insertar código fuente en 
+date:   2014-10-29 16:53:34
 category: general
 tags: [wordpress]
 ---
 
-<p>Plugin para wordpres que permite insertar código en el sitio web, es muy facil de utilizar, solo tiene que instalar y eso es todo no necesita onfiguraciones, el plugin <strong>Simple Code Highlighter</strong> que estaré actualizando, pueden estar seguros de utilizas el plugin, si hay algún problema o tienen ideas para mejorar el plugin solo dejen sus comentarios en la pagina.</p>
-
+<p>&nbsp;</p>
+<p>Estuve buscando un plugin para poder inserta código fuente en las entradas de mi sitio, no logre encontrar entonces me decidí hacerlo y poder compartirlo, es un simple plugin llamado <strong>Simple Code Highlighter</strong> que estaré actualizando, pueden estar seguros de utilizas el plugin, si hay algún problema o tienen ideas para el plugin solo dejen sus comentarios en la pagina, espero que lo utilicen en sus sitios web o blog ya que lo hice con amor :)</p>
 <p>Detalles del plugin : <a href="https://wordpress.org/plugins/simple-code-highlighter/" target="_blank">Simple Code Highlighte</a>r</p>
 <p>&nbsp;</p>
 <p style="text-align: center;"><strong>screenshot 01</strong></p>

@@ -41,56 +41,21 @@
 #
 # Global options
 # --------------
-#set :ssh_options, {
-#	keys: %w(/home/rlisowski/.ssh/id_rsa),
-#	forward_agent: false,
-#	auth_methods: %w(password)
-#}
+#  set :ssh_options, {
+#    keys: %w(/home/rlisowski/.ssh/id_rsa),
+#    forward_agent: false,
+#    auth_methods: %w(password)
+#  }
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
-# server 'example.com',
-#	user: 'user_name',
-##	roles: %w{web app},
-#	ssh_options: {
-#		user: 'user_name', # overrides user setting above
-#		keys: %w(/home/user_name/.ssh/id_rsa),
-#		forward_agent: false,
-#		auth_methods: %w(publickey password)
-#		password: 'please use keys'
-#	}
-
-
-
-
-set :stage, :production
-
-# Extended Server Syntax
-# ======================
-# This can be used to drop a more detailed server definition into the
-# server list. The second argument is a, or duck-types, Hash and is
-# used to set extended properties on the server.
- 
-server '104.131.43.158', user: 'root', port: 22, roles: %w{web app}
- 
-set :bundle_binstubs, nil
-
-set :bundle_flags, '--deployment --quiet'
-set :rvm_type, :user
- 
- 
-SSHKit.config.command_map[:rake]  = "bundle exec rake"
-SSHKit.config.command_map[:rails] = "bundle exec rails"
-
-namespace :deploy do
-
-desc "Restart application"
-	task :restart do
-		on roles(:app), in: :sequence, wait: 5 do
-		# execute :touch, release_path.join("tmp/restart.txt")
-	end
-end
-
-after :finishing, "deploy:cleanup"
- 
-end
+ server '104.236.241.56',
+   user: 'root',
+   roles: %w{comoprogramar},
+#   ssh_options: {
+#     user: 'user_name', # overrides user setting above
+#     keys: %w(/home/user_name/.ssh/id_rsa),
+#     forward_agent: false,
+#     auth_methods: %w(publickey password)
+#     # password: 'please use keys'
+#   }

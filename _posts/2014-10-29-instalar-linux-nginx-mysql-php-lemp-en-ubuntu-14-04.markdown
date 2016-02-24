@@ -70,7 +70,10 @@ sudo apt-get install nginx</p></blockquote>
 
 </pre>
 <p>Tenemos que hacer un cambio y nos tiene que quedar como esto:</p>
-<pre class="prettyprint">server {
+
+```javascript
+
+    server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
 
@@ -97,7 +100,12 @@ sudo apt-get install nginx</p></blockquote>
         fastcgi_index index.php;
         include fastcgi_params;
     }
-}</pre>
+
+
+}
+
+```
+
 <p>Reiniciaremos nginx:</p>
 <blockquote><p>sudo service nginx restart</p></blockquote>
 <p>Crearemos un archivo info.php, esto sera para que nos muestre todas las instalaciones que tenemos</p>
