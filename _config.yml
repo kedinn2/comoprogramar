@@ -26,7 +26,7 @@ highlighter: true
 redcarpet:
   extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
-port: 4023
+port: 4024
 
 assets:
   dirname: assets
