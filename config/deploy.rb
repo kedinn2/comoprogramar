@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'comoprogramar.org'
+set :application, 'comoprogramar'
 set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
 set :deploy_to, '/var/www/comoprogramar.org/html'
 
