@@ -1,5 +1,5 @@
 # Site settings
-title: Como Programar
+title: COMO PROGRAMAR ANDROID, JAVA, C#, C++, PHP, PYTHON, HTML5
 email: kedinn.th@gmail.com
 author: kedinn
 description: "Cómo aprender a programar en Android y Java, C# (Sharp), C++, html, PHP, Visual Basic, Javascript, Objetive C, Juegos, Python, Python,Hacking, 2015."
@@ -12,7 +12,7 @@ linkedinn_username:  cprogramar
 youtube_username:  cprogramar
 img-default: assets/default-cover.png
 
-permalink: /:title
+permalink: /:title/
 gems: [jekyll-paginate]
 paginate: 8
 paginate_path: "pagina:num"
