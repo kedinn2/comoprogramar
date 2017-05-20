@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Como Programar - Hablar es barato, Enséñame el código</title>
+    <title>COMO PROGRAMAR ANDROID, JAVA, C#, C++, PHP, PYTHON, HTML5</title>
     <description>Cómo aprender a programar en Android y Java, C# (Sharp), C++, html, PHP, Visual Basic, Javascript, Objetive C, Juegos, Python, Python,Hacking, 2015.</description>
     <link>///</link>
     <atom:link href="///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2016 23:50:05 -0500</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2016 23:50:05 -0500</lastBuildDate>
+    <pubDate>Fri, 19 May 2017 22:01:01 -0500</pubDate>
+    <lastBuildDate>Fri, 19 May 2017 22:01:01 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -62,8 +62,8 @@
 &lt;p&gt;Estoy probando cada una de estas maravillosas gemas, si quieren más detalles nada mejor que probarlo y practicar, las gemas tienen una documentación que esta en el mismo Github.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Feb 2015 15:42:45 -0500</pubDate>
-        <link>///gemas-para-ruby-on-rails</link>
-        <guid isPermaLink="true">///gemas-para-ruby-on-rails</guid>
+        <link>///gemas-para-ruby-on-rails/</link>
+        <guid isPermaLink="true">///gemas-para-ruby-on-rails/</guid>
         
         <category>ruby-on-rails</category>
         
@@ -87,8 +87,8 @@ Seguramente preguntaste a tus amigos para que puedan ayudarte y obtienes respues
 &lt;p&gt;&lt;a href=&quot;/assets/que-lenguaje-de-programación-debo-aprender-primero.png&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter size-large wp-image-9935&quot; src=&quot;/assets/que-lenguaje-de-programación-debo-aprender-primero.png&quot; alt=&quot;que lenguaje de programación debo aprender primero&quot; width=&quot;926&quot; height=&quot;1024&quot; /&gt;&lt;/a&gt; Voy a traducirlo a español y mostrar una buena presentación, para que puedan entender mejor :)&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Feb 2015 15:42:45 -0500</pubDate>
-        <link>///que-lenguaje-de-programacion-debo-aprender-primero</link>
-        <guid isPermaLink="true">///que-lenguaje-de-programacion-debo-aprender-primero</guid>
+        <link>///que-lenguaje-de-programacion-debo-aprender-primero/</link>
+        <guid isPermaLink="true">///que-lenguaje-de-programacion-debo-aprender-primero/</guid>
         
         
         <category>general</category>
@@ -154,8 +154,8 @@ Seguramente preguntaste a tus amigos para que puedan ayudarte y obtienes respues
 &lt;p&gt;Eso es todo espero que miren la diferencia con la herramienta pagespeed, Saludos :)&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Oct 2014 17:36:49 -0500</pubDate>
-        <link>///configurar-la-compresion-gzip-en-nginx</link>
-        <guid isPermaLink="true">///configurar-la-compresion-gzip-en-nginx</guid>
+        <link>///configurar-la-compresion-gzip-en-nginx/</link>
+        <guid isPermaLink="true">///configurar-la-compresion-gzip-en-nginx/</guid>
         
         <category>nginx</category>
         
@@ -191,8 +191,8 @@ Seguramente preguntaste a tus amigos para que puedan ayudarte y obtienes respues
 &lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9772&quot; src=&quot;/assets/Simple-Code-Highlighter-03.jpg&quot; alt=&quot;Simple-Code-Highlighter-03&quot; width=&quot;938&quot; height=&quot;520&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Oct 2014 11:53:34 -0500</pubDate>
-        <link>///plugin-para-insertar-codigo-en-wordpress</link>
-        <guid isPermaLink="true">///plugin-para-insertar-codigo-en-wordpress</guid>
+        <link>///plugin-para-insertar-codigo-en-wordpress/</link>
+        <guid isPermaLink="true">///plugin-para-insertar-codigo-en-wordpress/</guid>
         
         <category>wordpress</category>
         
@@ -381,8 +381,8 @@ Y listo! espero que les sirva y saludos :)&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Oct 2014 11:53:34 -0500</pubDate>
-        <link>///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04</link>
-        <guid isPermaLink="true">///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04</guid>
+        <link>///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04/</link>
+        <guid isPermaLink="true">///instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04/</guid>
         
         <category>nginx</category>
         
@@ -446,8 +446,8 @@ console.log(&amp;#39;Servidor corriendo en http://127.0.0.1:3000&amp;#39;);
 &lt;p&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;Con este servidor le estamos diciendo a node que al recibir un request en la  url raíz del proyecto, devuelva un hola mundo; pero veamos de manera detallada para que sirve cada parte de nuestro código.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;Require() &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→ Con require(), le decimos a nuestro server que librerías Node vamos a cargar; librerías que previamente ya están en las dependencias de nuestro proyecto.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;En nuestro servidor debemos definir qué hacer con las peticiones que llegan de los usuarios (GET - POST), en este caso usamos la ayuda de “Express.js”; si no se define qué hacer con las peticiones tendríamos un server corriendo que no hace nada.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; &lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;.get()&lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt; →  Le decimos al server que hacer cuando recibe una petición GET en el root de nuestra aplicación, por medio de funciones que siempre van a recibir como parámetros una petición del cliente (req) y una respuesta del servidor (res).&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;res.send() &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→ Le decimos que haga un response con la cadena “hola mundo”.&lt;/span&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;br style=&quot;color: #4d4d4d;&quot; /&gt;&lt;span style=&quot;font-weight: 600; color: #4d4d4d;&quot;&gt;server.listen(xxxx) &lt;/span&gt;&lt;span style=&quot;color: #4d4d4d;&quot;&gt;→Le decimos al servidor el puerto en el que debe escuchar peticiones.&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Sep 2014 18:17:31 -0500</pubDate>
-        <link>///introduccion-a-node-js</link>
-        <guid isPermaLink="true">///introduccion-a-node-js</guid>
+        <link>///introduccion-a-node-js/</link>
+        <guid isPermaLink="true">///introduccion-a-node-js/</guid>
         
         <category>nodejs</category>
         
@@ -475,8 +475,8 @@ que los mostrare en las imágenes, antes voy a explicarle en lo personal de cual
 &lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-9025&quot; src=&quot;/assets/infografia_wordpress_vs_blogger.jpg&quot; alt=&quot;infografia_wordpress_vs_blogger&quot; width=&quot;600&quot; height=&quot;826&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Jul 2014 18:20:18 -0500</pubDate>
-        <link>///cual-es-mejor-blogger-vs-wordpress</link>
-        <guid isPermaLink="true">///cual-es-mejor-blogger-vs-wordpress</guid>
+        <link>///cual-es-mejor-blogger-vs-wordpress/</link>
+        <guid isPermaLink="true">///cual-es-mejor-blogger-vs-wordpress/</guid>
         
         <category>wordpress</category>
         
@@ -530,8 +530,8 @@ que los mostrare en las imágenes, antes voy a explicarle en lo personal de cual
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jun 2014 05:17:12 -0500</pubDate>
-        <link>///google-invierte-50-millones-dolares-para-que-las-ninas-programen</link>
-        <guid isPermaLink="true">///google-invierte-50-millones-dolares-para-que-las-ninas-programen</guid>
+        <link>///google-invierte-50-millones-dolares-para-que-las-ninas-programen/</link>
+        <guid isPermaLink="true">///google-invierte-50-millones-dolares-para-que-las-ninas-programen/</guid>
         
         
         <category>general</category>
@@ -665,8 +665,8 @@ que los mostrare en las imágenes, antes voy a explicarle en lo personal de cual
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Jun 2014 23:16:53 -0500</pubDate>
-        <link>///plataformas-para-crear-aplicaciones-moviles</link>
-        <guid isPermaLink="true">///plataformas-para-crear-aplicaciones-moviles</guid>
+        <link>///plataformas-para-crear-aplicaciones-moviles/</link>
+        <guid isPermaLink="true">///plataformas-para-crear-aplicaciones-moviles/</guid>
         
         
         <category>general</category>
@@ -862,8 +862,8 @@ que los mostrare en las imágenes, antes voy a explicarle en lo personal de cual
 &lt;p&gt;El mejor lenguaje de programación es relativo a lo que busca. En este artículo, hablamos de varios aspectos de los lenguajes de programación. Claramente, Mobile, Big Data, usable y Cloud son las tendencias principales para 2014. Espero les haya gustado este artículo y espero que comenten o aporten alguna información.&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Mar 2014 09:36:49 -0500</pubDate>
-        <link>///mejor-lenguaje-de-programacion</link>
-        <guid isPermaLink="true">///mejor-lenguaje-de-programacion</guid>
+        <link>///mejor-lenguaje-de-programacion/</link>
+        <guid isPermaLink="true">///mejor-lenguaje-de-programacion/</guid>
         
         
       </item>
