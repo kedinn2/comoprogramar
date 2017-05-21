@@ -6,9 +6,6 @@ set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
 set :deploy_to, '/var/www/comoprogramar.org/html/comoprogramar'
 
 
-set :ssh_options, { :forward_agent => true }
-
-set :repo_tree, '_site'
 
 
 namespace :nginx do
