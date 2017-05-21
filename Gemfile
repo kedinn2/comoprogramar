@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'jekyll', '~> 3.0.1'
+gem 'therubyracer' , '~> 0.12.2'
 gem 'rb-fsevent', '~> 0.9.6'
 gem 'liquid', '~> 3.0.6'
 gem 'maruku', '~> 0.7.2'
@@ -20,4 +21,3 @@ gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-rvm', '~> 0.1.2'
 gem 'capistrano-bundler' , '~> 1.1.4'
 
- 
