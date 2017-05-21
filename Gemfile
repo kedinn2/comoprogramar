@@ -16,8 +16,8 @@ gem 'jekyll-paginate'
 gem 'therubyracer', '~> 0.12.2'
 gem 'rake', '~> 10.4.2', require: false
 gem 'activesupport', '~> 4.2.5', require: false
-gem 'capistrano'
-gem 'capistrano-rvm'
-gem 'capistrano-bundler'
+gem 'capistrano', '~> 3.4.0'
+gem 'capistrano-rvm', '~> 0.1.2'
+gem 'capistrano-bundler' , '~> 1.1.4'
 
  
