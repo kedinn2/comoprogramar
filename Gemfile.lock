@@ -107,9 +107,9 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 4.2.5)
-  capistrano
-  capistrano-bundler
-  capistrano-rvm
+  capistrano (~> 3.4.0)
+  capistrano-bundler (~> 1.1.4)
+  capistrano-rvm (~> 0.1.2)
   dotenv (~> 2.0.2)
   hpricot
   jekyll (~> 3.0.1)
