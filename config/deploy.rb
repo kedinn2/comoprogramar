@@ -1,5 +1,3 @@
-require "rvm/capistrano"
-require "bundler/capistrano"
 
 
 # config valid only for current version of Capistrano
@@ -9,7 +7,7 @@ set :application, 'comoprogramar'
 set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
 set :deploy_to, '/var/www/comoprogramar.org/html/comoprogramar'
 
-
+set :rvm_ruby_version, '2.2.0@comoprogramar'
 
 
 namespace :nginx do
