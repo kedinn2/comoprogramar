@@ -4,7 +4,12 @@ lock '3.4.0'
 set :application, 'comoprogramar'
 set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
 set :deploy_to, '/var/www/comoprogramar.org/html/comoprogramar'
-set :rvm_ruby_version, '2.2.0@comoprogramar'
+
+
+set :bundle_binstubs, nil
+set :bundle_flags, '--deployment --quiet'
+set :rvm_type, :user
+
 
 namespace :nginx do
   desc 'Symlink nginx config.'
