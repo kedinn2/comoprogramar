@@ -33,6 +33,11 @@
 
 
 
+set :stage, :production
+
+server '45.33.112.103', user: 'root', roles: %w{app}
+
+
 # Custom SSH Options
 # ==================
 # You may pass any option but keep in mind that net/ssh understands a
@@ -49,9 +54,9 @@
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
- server '45.33.112.103',
-   user: 'root',
-   roles: %w{app}
+# server 'example.com',
+#   user: 'user_name',
+#   roles: %w{web app},
 #   ssh_options: {
 #     user: 'user_name', # overrides user setting above
 #     keys: %w(/home/user_name/.ssh/id_rsa),

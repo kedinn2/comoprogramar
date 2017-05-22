@@ -1,47 +1,19 @@
-
-
 # config valid only for current version of Capistrano
 lock '3.4.0'
+
+set :application, 'my_app_name'
+set :repo_url, 'git@example.com:me/my_repo.git'
+
 
 set :application, 'comoprogramar'
 set :repo_url, 'git@github.com:kedinn2/comoprogramar.git'
 set :deploy_to, '/var/www/comoprogramar.org/html/comoprogramar'
 
-set :rvm_ruby_version, '2.2.0@comoprogramar'
 
 
-namespace :nginx do
-  desc 'Symlink nginx config.'
-  task :symlink do
-    on roles(:app) do
-      execute "sudo ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{fetch(:application)}"
-    end
-  end
+set :ssh_options, { :forward_agent => true }
 
-  desc 'Reload nginx config.'
-  task :reload do
-    on roles(:app) do
-      execute 'sudo service nginx reload'
-    end
-  end
-end
-
-namespace :deploy do
-  desc "Build site"
-  task :build do
-    on roles(:app) do
-      within(release_path) do
-        execute :bundle, 'exec jekyll build'
-      end
-    end
-  end
-
-  after :updated, :build
-  after :published, 'nginx:symlink'
-  after :published, 'nginx:reload'
-end
-
-
+set :repo_tree, '_site'
 
 
 # Default branch is :master
@@ -74,5 +46,15 @@ end
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+namespace :deploy do
 
+  after :restart, :clear_cache do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+      # within release_path do
+      #   execute :rake, 'cache:clear'
+      # end
+    end
+  end
 
+end
