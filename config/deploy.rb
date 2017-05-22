@@ -45,30 +45,21 @@ set :repo_tree, '_site'
 
 
 set :format, :pretty
+
+
+
+
+
+
 namespace :deploy do
-  task :update_jekyll do
-    on roles(:app) do
-      within "#{deploy_to}/current" do
-      	execute :jekyll, "build"
-      end
+
+  after :restart, :clear_cache do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+      # within release_path do
+      #   execute :rake, 'cache:clear'
+      # end
     end
   end
 
 end
-
-after "deploy:symlink:release", "deploy:update_jekyll"
-
-
-
-#namespace :deploy do
-
- # after :restart, :clear_cache do
- #   on roles(:web), in: :groups, limit: 3, wait: 10 do
-#      # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
-#    end
-#  end
-
-#end
