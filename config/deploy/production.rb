@@ -35,7 +35,7 @@
 
 set :stage, :production
 
-server '45.33.112.103', user: 'root', roles: %w{web}
+server '45.33.112.103', user: 'root', roles: %w{web app}
 
 
 # Custom SSH Options
