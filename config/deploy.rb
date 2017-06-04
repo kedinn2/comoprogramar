@@ -51,19 +51,9 @@ set :repo_tree, '_site'
 
 
 
-desc 'Build the website using Jekyll'
-task :build do
-  on roles(:web) do
-    within release_path do
-      execute :jekyll, 'build', '-d public'
-    end
-  end
-end
-
-after "deploy:updated", "build"
 
 
-/namespace :deploy do
+namespace :deploy do
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
@@ -74,4 +64,4 @@ after "deploy:updated", "build"
     end
   end
 
-end/
+end
