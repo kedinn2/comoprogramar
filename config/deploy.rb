@@ -43,3 +43,35 @@ set :repo_tree, '_site'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+
+ set :format, :pretty
+
+
+
+
+
+
+desc 'Build the website using Jekyll'
+task :build do
+  on roles(:web) do
+    within release_path do
+      execute :jekyll, 'build', '-d public'
+    end
+  end
+end
+
+after "deploy:updated", "build"
+
+
+/namespace :deploy do
+
+  after :restart, :clear_cache do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+       within release_path do
+         execute :rake, 'cache:clear'
+       end
+    end
+  end
+
+end/
