@@ -44,7 +44,7 @@ set :repo_tree, '_site'
 # set :keep_releases, 5
 
 
-# set :format, :pretty
+ set :format, :pretty
 
 
 
