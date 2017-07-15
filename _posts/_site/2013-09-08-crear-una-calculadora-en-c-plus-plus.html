@@ -1,0 +1,147 @@
+<p>Comencemos a crear un ejercicio simple de una calculadora, donde utilizaremos las 4 operaciones básicas del álgebra.<br />
+Lo haremos paso a paso, la primer parte del código que debemos colocar son las librerías de Windows y las librerías para usar las operaciones de entrada y salida básicas:</p>
+<pre class="prettyprint">#include
+#include</pre>
+<p>Hecho esto, partimos de nuestra estructura principal, que es la siguiente:</p>
+<pre class="prettyprint">int main(){
+return 0;
+}</pre>
+<p>Ahora si veamos , para esto necesitaremos dos entradas (números a utilizar) para recibir datos desde el teclado usamos la función cin.<br />
+Declaramos las variables y las recibimos desde el teclado:</p>
+<pre class="prettyprint">int num1, num2 y res;
+cout &lt;&lt; “Ingrese el numero 1: ”; cin &gt;&gt; num1;
+cout &lt;&lt; “ingrese el numero 2: ”; cin &gt;&gt; num2;</pre>
+<p>\n es para dar salto de linea<br />
+Con esto ya solicitamos los dos números que utilizaremos, ahora solo resta hacer las operaciones y mostrarlas en pantalla:</p>
+<pre class="prettyprint">res = num1+num2;
+cout &lt;&lt; "\nLa suma es: " &lt;&lt; res;</pre>
+<p>La salida quedaría algo asi<br />
+La suma es: res<br />
+El resto es simple, solo acomodamos el código anterior a las otras operaciones.</p>
+<pre class="prettyprint">res = num1 – num2;
+res = num1 / num2;
+res = num1 * num2;</pre>
+<p>El código al final, quedaría de la siguiente manera.</p>
+<pre class="prettyprint">#include &lt;stdlib.h&gt;
+#include &lt;iostream&gt;
+using namespace std;
+int main(){
+int num1, num2, res;
+cout &lt;&lt; “Ingrese el numero 1: ”;
+cin &gt;&gt; num1;
+cout &lt;&lt; “ingrese el numero 2: ”;
+cin &gt;&gt; num2;
+res = num1+num2;
+cout &lt;&lt; “La suma de ” &lt;&lt; num1 &lt;&lt; “ + “ &lt;&lt; num2 &lt;&lt; “ es “ &lt;&lt; res;
+res = num1-num2;
+cout &lt;&lt; “La resta de ” &lt;&lt; num1 &lt;&lt; “ - “ &lt;&lt; num2 &lt;&lt; “ es “ &lt;&lt; res;
+res = num1 / num2;
+cout &lt;&lt; “La división de ” &lt;&lt; num1 &lt;&lt; “ entre “ &lt;&lt; num2 &lt;&lt; “ es “ &lt;&lt; res;
+res = num1*num2;
+cout &lt;&lt; “La multiplicación de ” &lt;&lt; num1 &lt;&lt; “ x “ &lt;&lt; num2 &lt;&lt; “ es “ &lt;&lt; res;
+return 0;
+}</pre>
+<p>En la consola nos quedaría algo asi:</p>
+<p class="code">Ingrese el numero 1: 8<br />
+ingrese el numero 2: 7<br />
+La suma es: 15<br />
+La resta es: 1<br />
+La division es: 1<br />
+La multiplicacion es: 56<br />
+Presione una tecla para continuar . . .</p>
+<p style="text-align: center;"><strong>Calculadora con menu en c++</strong></p>
+<p style="text-align: center;">Calculadora un poco mas avanzada pero nada difícil.</p>
+<p>&nbsp;</p>
+<pre class="prettyprint">#include
+using namespace std;
+
+int main ()
+
+{
+double n1, n2; int opc;
+
+cout &lt;&lt; " ************************************* \n"
+&lt;&lt; " * Calculadora basica para 2 numeros * \n"
+&lt;&lt; " ************************************* \n"
+&lt;&lt; endl
+&lt;&lt; endl
+&lt;&lt; endl
+
+&lt;&lt; "Ingrese el primer numero: "; cin &gt;&gt; n1;
+cout &lt;&lt; endl
+&lt;&lt; endl
+&lt;&lt; "Ingrese el segundo numero: "; cin &gt;&gt; n2;
+
+system ("cls");
+
+cout &lt;&lt; " ************************************* \n"
+
+&lt;&lt; " * Calculadora basica para 2 numeros * \n"
+
+&lt;&lt; " ************************************* \n"
+
+&lt;&lt; endl
+
+&lt;&lt; endl
+
+&lt;&lt; endl
+
+&lt;&lt; " Que operacion desea realizar? "
+
+&lt;&lt; endl
+
+&lt;&lt; endl
+
+&lt;&lt; " 1) Suma.\n"
+
+&lt;&lt; " 2) Resta.\n"
+
+&lt;&lt; " 3) Multiplicacion.\n"
+
+&lt;&lt; " 4) Division.\n"
+
+&lt;&lt; " *) presione cualquier otro numero para salir\n\n\n"
+
+&lt;&lt; " Ingrese el numero de la opcion que desea realizar: "; cin &gt;&gt; opc;
+switch (opc)
+
+{
+case 1:
+
+system ("cls");
+
+cout &lt;&lt; "\n\n La suma de los numeros es: "
+&lt;&lt; n1+n2
+&lt;&lt; endl
+&lt;&lt; endl;
+break;
+case 2:
+system ("cls");
+cout &lt;&lt; "\n\n La resta de los numeros es: "
+&lt;&lt; n1-n2
+&lt;&lt; endl
+&lt;&lt; endl;
+
+break;
+case 3:
+system ("cls");
+cout &lt;&lt; "\n\n La multiplicacion de los numeros es: "
+&lt;&lt; n1*n2
+&lt;&lt; endl
+&lt;&lt; endl;
+break;
+
+case 4:
+system ("cls");
+
+cout &lt;&lt; "\n\n La division de los numeros es: "
+&lt;&lt; n1/n2
+&lt;&lt; endl
+&lt;&lt; endl;
+
+default: break;
+}
+system ("Pause");
+return 0;
+}</pre>
+<p>&nbsp;</p>

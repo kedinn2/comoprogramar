@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+  <head>
+	<meta charset="utf-8">
+
+	<title>Ejemplos de if elif else en Python</title>
+	<meta name="description" content="Les dejo ejercicios basicos en Python si se daran cuenta en todos los ejercicio utilizo ifs y funciones que nos retorna un valor, booleano, ingresa datos por...">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="/assets/styles.css">
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+	<link rel="canonical" href="///ejercicios-if-elif-else-en-python/">
+	<link rel="alternate" type="application/rss+xml" title="COMO PROGRAMAR ANDROID, JAVA, C#, C++, PHP, PYTHON, HTML5" href="///feed.xml" />
+</head>
+
+
+  <body>
+
+        <header id="header" class="header">
+      <div class="top-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+                    <div id="logo" class="logo">
+              <a href="/" rel="home" title="home">
+                <img src="/assets/logo.png" alt="Como Programar" />
+              </a>
+                  </div>
+                  <div class="follow-us">
+                    <div class="follow-title">
+                      SÍGUEME 
+                    </div>
+                    <ul class="social-links">
+                      <li class="facebook"><a href="https://www.facebook.com/cprogramar">Seguir en Facebook</a></li>
+                      <li class="twitter"><a href="https://twitter.com/kedinn2">Seguir en Twitter</a></li>
+                      <li class="google"><a href="https://plus.google.com/u/0/118382347982297458050">Seguir en Google</a></li>
+                      <li class="linkedin"><a href="https://pe.linkedin.com/pub/kedinn-turpo/3b/30a/163">Seguir en Linkedin</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="btn-menu"></div>
+                  <div class="member-area">
+                    <span class="signup-popup"><a href="https://github.com/kedinn2/comoprogramar"> ¿ Cómo Aportar ?</a></span>
+                  </div>
+                </div>
+              </div>
+           </div>
+      </div>
+    <div class="header-wrap">
+     <div class="container">
+        <div class="row">
+        <div class="col-md-9">
+          <nav id="mainnav" class="mainnav">
+            <ul class="menu">
+              <li ><a href="/actualidad">Actualidad</a></li>
+              </li>
+              <li class="has-children"><a href="/codigos">Códigos</a>
+                <ul class="sub-menu">
+                  <li><a href="/">Nodejs</a></li>
+                  <li><a href="/">Python</a></li>
+                  <li><a href="/">Java</a></li>
+                  <li><a href="/">Ver más</a></li>
+
+                </ul>
+              </li>
+
+              <li ><a href="/cursos">Cursos</a>
+              </li>
+              <li><a href="/manuales">Manuales</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-3">
+          <div class="search-wrap">
+            <div class="search-icon"></div>
+            <form action="#" id="searchform" class="search-form" method="get" role="search">
+              <input type="text" id="s" placeholder="Buscar ..." class="search-field">
+              
+ 
+              <span class="icon-magnifier" id="searchsubmit" class="search-submit"></span>
+
+              <a class="search-close" href="#"><i class="fa fa-times-circle"></i></a>
+            </form>
+          </div>
+        </div>
+        </div>
+     </div>
+    </div>
+  </header>
+
+
+
+
+
+  <section id="main" class="category-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="post-wrap">
+                        <div class="post-wrap posts posts-list">
+                        <article class="post">
+                            <div class="head-post">
+                                <h2>Ejemplos de if elif else en Python</h2>
+
+                                
+
+
+
+
+                                <div class="meta">
+                                    <span class="author">Por <a href="#">kedinn </a></span>
+                                    <span class="time"> 2013/09/30 </span>
+                                </div>
+                            </div>
+                            <div class="body-post">
+                                <div class="main-post">
+                                    <div class="entry-post">
+                                    <img class="cente" src=""></img>
+
+
+                                    <center>
+                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        
+                                    <ins class="adsbygoogle"
+                                         style="display:inline-block;width:320px;height:100px"
+                                         data-ad-client="ca-pub-8586657879451835"
+                                         data-ad-slot="4824052253"></ins>
+                                    <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                    </center>
+
+
+                                        <p>Les dejo ejercicios basicos en Python si se daran cuenta en todos los ejercicio utilizo ifs y funciones que nos retorna un valor, booleano, ingresa datos por teclado. Recuerden no es simplemente copiar y listo si no razonar como funcionan, espero que les sirva no dejen de Seguirnos! hasta la próxima.</p>
+
+<p><strong>Práctica IFs de 8 Problemas<br />
+</strong><br />
+<strong>1. </strong>Hacer un programa que simule el proceso de evaluación crediticia de un banco. Se debe de validar que la edad mínima de la persona es 18 años, que sus ingresos son mayores a sus egresos, y que al final del mes la persona pueda pagar la cuota de su préstamo. La cuota está definida como el monto pedido entre el número de meses en que se desea pagar dicho préstamo. Usar por lo menos dos funciones.</p>
+
+<p>&nbsp;</p>
+
+<pre class="prettyprint">def _Cuotas(prestamo,meses):
+    cuota=prestamo/meses
+    return cuota
+
+def _Prestamo():
+    prestamo=input("Monto de prestamo: ")
+    meses=input("Cuantos meses de pago: ")
+    print "Monto de pago por mes: ", _Cuotas(prestamo,meses)
+
+edad=input("Ingrese edad: ")
+
+if edad&gt;=18:
+    ingresos=input("Monto de ingresos: ")
+    egresos=input("Monto de Egresos")
+    if ingresos&gt;egresos:
+        _Prestamo()
+    else :
+        print "Sus ingresos no es mayor que sus egresos"
+else :
+    print "No es mayor de edad"</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>2.</strong> Crear una función que retorne el valor absoluto de un número si éste es múltiplo de 3 y de 7. La cabecera de la función debe de ser:<br />
+def valorAbsoluto(numero):<br />
+#instrucciones para calcular el valor absoluto<br />
+return resultado</p>
+
+<pre class="prettyprint">def valorAbsoluto(numero):
+    if numero%3==0 and numero%7==0:
+    if numero&lt;0:
+        return numero*-1
+    elif numero&gt;=0:
+        return numero
+    else :
+        return "No es multiplo de 3 y 7"
+numero=input("Ingrese numero: ")
+print "valor Absoluto: ", valorAbsoluto(numero)</pre>
+
+<p><strong>3. </strong>Pedir un número e indicar si es positivo o negativo. Usando al menos una función que retorne un valor booleano.</p>
+
+<pre class="prettyprint">def Numero(num):
+    if num&gt;0:
+        return "Positivo"
+    elif num&lt;0:
+        return "Negativo"
+num=input("Ingrese numero: ")
+print Numero(num)</pre>
+
+<p><strong>4.</strong> Crear una función llamada xmayor, a la cual se le pasen(la funcion los recibe como parametros) dos números y nos diga a través de un mensaje si el primero fue múltiplo del segundo.<br />
+ejm. Usuario ingresa 9<br />
+Usuario ingresa 3<br />
+Programa dice: 9 si es multiplo de 3</p>
+
+<pre class="prettyprint">def xmayor(num1,num2):
+    if num1%num2==0:
+        print num1," es multipli de ", num2
+    else:
+        print num1," no es multiplo de ", num2
+num1=input("Primer Numero: ")
+num2=input("Segundo numero:")
+print xmayor(num1,num2)</pre>
+
+<p><strong>5. </strong>Crear una función llamada notas, la cual dentro de ella pida una nota de 0 a 10 y muestra de la forma: “Insuficiente”, “Suficiente”, “Bien”. Siguiendo el siguiente modelo.<br />
+De 0 a 3 será “insuficiente”,<br />
+de 4 a 6 “Suficiente”<br />
+de 6 a 10 “Bien”.</p>
+
+<pre class="prettyprint">def notas(nota):
+    if nota&gt;=0 and nota&lt;=3:
+        return "Insuficiente"
+    elif nota&gt;=4 and nota&lt;=6:
+        return "Suficiente"
+    elif nota&gt;=6 and nota&lt;=10:
+        return "Bien"
+nota=input("Ingrese nota: ")
+print notas(nota)</pre>
+
+<p><strong>6. </strong>Crear una función llamada numeros, a la cual se le pase como parametro un número entero entre 0 y 10, y la función mostrará dicho número de la forma: “cero”, “uno”, “dos”, “tres”.</p>
+
+<pre class="prettyprint">def numeros(numero):
+    if numero==0:
+        return "cero"
+    elif numero==1:
+        return "cero, uno, dos"
+    elif numero==2:
+        return "cero, uno, dos, tres"
+    elif numero==3:
+        return "cero, uno, dos, tres, cuatro"
+    elif numero==4:
+        return "cero, uno, dos, tres, cuatro, cinco"
+    elif numero==5:
+        return "cero, uno, dos, tres, cuatro, cinco"
+    elif numero==6:
+        return "cero, uno, dos, tres, cuatro, cinco, seis"
+    elif numero==7:
+        return "cero, uno, dos, tres, cuatro, cinco, seis, siete"
+    elif numero==8:
+        return "cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho"
+    elif numero==9:
+        return "cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve"
+    elif numero==10:
+        return "cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez"
+numero=input("Ingrese numero: ")
+if numero&gt;=0 and numero&lt;=10:
+    print numeros(numero)
+else :
+    print "No esta dentro de 0 - 10"</pre>
+
+<p><strong>7. </strong>Crear un programa que simule una máquina dispensadora de dulces. Es decir, que espere la cantidad de dinero que acepte (siempre menor a 5) y que permita al usuario escoger los productos que están disponibles para después imprimir el vuelto según el costo del producto. Crear tres funciones:<br />
+def iniciar()<br />
+def imprimirProductos()<br />
+def calcularVuelto(monto, precioProducto)</p>
+
+<pre class="prettyprint">def iniciar():
+    dulce=raw_input("Elija letra: ")
+    if dulce=="a":
+        precioProducto=2.5
+        print "Su vuelto: ", calcularVuelto(monto,precioProducto)
+    elif dulce=="b":
+        precioProducto=1.4
+        print "Su vuelto: ", calcularVuelto(monto,precioProducto)
+    elif dulce=="c":
+        precioProducto=4
+        print "Su vuelto: ", calcularVuelto(monto,precioProducto)
+    elif dulce=="d":
+        precioProducto=1.2
+        print "Su vuelto: ", calcularVuelto(monto,precioProducto)
+def imprimirProductos():
+    print "a) chupete : 2.5\nb) gomas : 1.4\nc) caramelo: 4\nd) topline : 1.2"
+def calcularVuelto(monto,precioProducto):
+    return monto-precioProducto
+
+print imprimirProductos()
+monto=input("Ingrese monto: ")
+if monto&lt;5:
+    print iniciar()
+else :
+    print "Monto debe ser menor a 5"</pre>
+
+<p><strong>8.</strong> Implementar las funciones sumar(num1, num2) que retorne la suma de los dos numeros</p>
+
+<p><strong>restar</strong>(num1, num2) que retorne la resta de los dos numeros</p>
+
+<p><strong>multiplica</strong>r(num1, num2) que retorne la multiplicación de los dos números</p>
+
+<p><strong>dividir</strong>(num1, num2) que retorne la división de los dos números</p>
+
+<p><strong>calcular</strong>(x, y, z) que imprima el resultado de la ecuación</p>
+
+<ul>
+<li>El programa pedirá 3 números, estos serán pasados como parámetros a su función calcular, la cual usará la ecuación mostrada a continuación y mostrará el</li>
+</ul>
+
+<p><img class="aligncenter size-full wp-image-1349" alt="operacion python" src="/assets/operacion-python.png" width="428" height="142" /></p>
+
+<ul>
+<li>Su programa solo podrá usar las funciones implementadas para resolver las operaciones. Así por ejemplo   para resolver (x + y) tendrá que ser llamada la función sumar de la manera sumar(x,y). Así será para todas las demás operaciones.</li>
+<li>El usuario ingresa primero el valor de x, luego el de y finalmente el de z.</li>
+<li>Ejm.</li>
+<li dir="ltr" style="display: inline !important;">
+<p dir="ltr" style="display: inline !important;">Usuario ingresa 1   2   3</p>
+</li>
+<li dir="ltr" style="display: inline !important;"></li>
+<li>Programa: El resultado de la ecuación es 0.36</li>
+</ul>
+
+<pre class="prettyprint">def sumar(num1, num2):
+    return num1+num2
+def restar(num1, num2):
+    return num1-num2
+def multiplicar(num1, num2):
+    return num1*num2
+def dividir(num1, num2):
+    return num1/num2
+def calcular(x, y, z):
+    resultado=dividir(multiplicar(sumar(x,y),restar(y,z)),sumar(x**2,y**2))**2
+    return resultado
+
+x=input("Ingrese x: ")
+x=x*1.0
+y=input("Ingrese y: ")
+y=y*1.0
+z=input("Ingrese z: ")
+z=z*1.0
+print calcular(x,y,z)</pre>
+
+                                    <center>
+                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                             
+                                        <ins class="adsbygoogle"
+                                             style="display:inline-block;width:300px;height:250px"
+                                             data-ad-client="ca-pub-8586657879451835"
+                                             data-ad-slot="3347319050"></ins>
+                                        <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                                    </center>
+                                    </div>
+
+
+                                    <ul class="pager">
+
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    
+                    <li class="previous">
+                        <a href="/raiz-cuadrada-en-python/" data-toggle="tooltip" data-placement="top" title="2 formas crear Raíz cuadrada en Python">&larr; Anterior</a>
+                    </li>
+                    
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    
+                    <li class="next">
+                        <a href="/libros-y-manuales-de-java-gratis/" data-toggle="tooltip" data-placement="top" title="Libros y manuales de Java">Siguiente &rarr;</a>
+                    </li>
+                    
+                    </div>
+                </div>
+
+                                    </ul>
+
+
+
+
+                                    <div class="load-comment">
+                                        
+
+
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+    var disqus_shortname = 'kedinn';
+    
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+   
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+          </div>
+        </div>
+        <div class="col-md-4">
+        
+					<div class="sidebar-widget-1">
+
+						<div class="widget widget-ads">
+                                    <center>
+                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    
+                                        <ins class="adsbygoogle"
+                                             style="display:inline-block;width:300px;height:250px"
+                                             data-ad-client="ca-pub-8586657879451835"
+                                             data-ad-slot="3347319050"></ins>
+                                        <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                                    </center>
+						</div>
+
+						<div class="widget widget-tabs2">
+							<div class="tabs style2">
+								<ul class="menu-tab">
+									<li class="active"><a href="#">RECIENTES</a></li>
+								   	<li><a href="#">DESTACADOS</a></li>
+								</ul>
+								<div class="content-tab">
+								   	<div class="content" style="display: block;">
+										<ul class="most-popular">
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/gemas-para-ruby-on-rails/">Gemas esenciales para Ruby on Rails</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/que-lenguaje-de-programacion-debo-aprender-primero/">¿Qué lenguaje de programación debo aprender primero?</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/configurar-la-compresion-gzip-en-nginx/">Configurar la compresión Gzip en Nginx</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/plugin-para-insertar-codigo-en-wordpress/">Plugin para insertar código fuente en</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/instalar-linux-nginx-mysql-php-lemp-en-ubuntu-14-04/">Instalar Linux, Nginx, MySQL, PHP (LEMP) en Ubuntu 14.04</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/introduccion-a-node-js/">Introducción a Node.js</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/cual-es-mejor-blogger-vs-wordpress/">¿cuál es mejor? Blogger vs wordpress</a></p>
+											</li>
+							
+										
+					
+											<li>
+												<div class="order">•</div> 
+												<p><a href="/google-invierte-50-millones-dolares-para-que-las-ninas-programen/">Google invierte $50 millones dolares para que las niñas programen</a></p>
+											</li>
+							
+										
+											
+
+
+
+										</ul>
+								   	</div>
+								   	<div class="content" style="display: none;">
+										<ul class="most-popular">
+											<li>
+												<div class="order">1</div>
+												<p><a href="">The World’s Youngest Billionaire is Just 24 and She’s From Hong Kong</a></p>
+											</li>
+											<li>
+												<div class="order">2</div>
+												<p><a href="">The World’s Youngest Billionaire is Just 24 and She’s From Hong Kong</a></p>
+											</li>
+										</ul>
+								   	</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="widget widget-ads">
+                                    <center>
+										<div id="fb-root"></div>
+										<script>(function(d, s, id) {
+										  var js, fjs = d.getElementsByTagName(s)[0];
+										  if (d.getElementById(id)) return;
+										  js = d.createElement(s); js.id = id;
+										  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=678433192222569";
+										  fjs.parentNode.insertBefore(js, fjs);
+										}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/kedinn" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/kedinn"><a href="https://www.facebook.com/kedinn">Como Programar</a></blockquote></div></div>
+</div>
+
+
+									<div class="widget widget-tabs2">										
+                                    </center >
+						
+						<div class="etiqueta">
+						
+						<a href="/etiqueta/java">Java</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/ruby">Ruby</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/ruby-on-rails">Ruby on Rails</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/python">Python</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/jekyll">Jekyll</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/html">HTML</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/mongodb">Mongodb</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/nginx">Nignx</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/mysql">Mysql</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/ubuntu">Ubuntu</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/cplusplus">C++</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/wordpress">Wordpress</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/nodejs">Nodejs</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/css">CSS3</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/netbeans">Netbeans</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/javascript">Javascript</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/csharp">C#</a></h1>
+						</a>
+						
+						
+						<a href="/etiqueta/eclipse">Eclipse</a></h1>
+						</a>
+						
+						
+						</div>
+						</div>
+
+
+
+						<div class="widget widget-ads">
+                                    <center>
+
+
+
+										
+                                    </center>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+						<div class="widget widget-follow-us">
+							<center>
+							<div class="socials">
+								<a class="facebook" href="https://www.facebook.com/kedinn"><i class="icon-Facebook"></i></a>
+								<a class="twitter" href="https://twitter.com/kedinn2"><i class="icon-Twitter"></i></a>
+								<a class="google" href="https://plus.google.com/u/0/118382347982297458050"><i class="icon-Googleplus"></i></a>
+								<a class="youtube" href="https://www.youtube.com/kedinn"><i class="icon-Youtube"></i></a>
+								<a class="linkedin" href="https://pe.linkedin.com/pub/kedinn-turpo/3b/30a/163"><i class="icon-Linkedin"></i></a>
+								<a class="github" href="https://github.com/kedinn2"><i class="icon-Github"></i></a>
+							</div>
+							</center>
+						</div>
+
+
+
+					</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+        <footer id="footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="widget widget-brand">
+                            <p>Comoprogramar.org es un sitio(open soucer) para contribuir contenidos relacionados a la informatica.</p>
+                            <p>Construido desde cero en Jekyll y Ruby ...  <a href="https://github.com/kedinn2/comoprogramar">Ver mas</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget widget-twitter">
+                            <div class="latest-tweets" data-number="3" data-username="envato" data-modpath="./twitter/index.php"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="widget widget-list">
+                            <ul class="links-list">
+                                <li><a href="/">Inicio</a></li>
+                                <li><a href="/nosotros">Sobre nosotros</a></li>
+                                <li><a href="/terminos-y-condiciones">Términos y condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="widget widget-list">
+                            <ul class="links-list">
+                                <li><a href="http://ruby.pe/">Ruby Perú</a></li>
+                                <li><a href="http://micodi.com/">Micodi Online</a></li>
+       
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        &copy; Comoprogramar.org
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="login-modal" class="login popup" style="display: none;">
+        <a class="close-modal" href="#"></a>
+        <div class="form-title">
+            <h4>Login</h4>
+            <div class="signup">
+                No account yet? <a href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="login-by">
+            <div class="log-face-w">
+                <a class="log-facebook" href="#">Login with Facebook</a>
+            </div>
+            <div class="log-twit-w">
+                <a class="log-twitter" href="#">Login with Twitter</a>
+            </div>
+        </div>
+        <form id="loginform" name="loginform" method="post">
+            <div class="email-wrap">
+                <input type="text" size="30" value="" class="input" id="user-email" name="log" placeholder="Email">
+            </div>     
+            <div class="pass-wrap">
+                <input type="password" size="30" value="" class="input" id="user-pass" name="password" placeholder="Password">
+            </div>
+            <div class="option-login">
+                <div class="remember">
+                    <input type="checkbox" name="check3" id="check3" class="css-checkbox" checked="checked"/><label for="check3" class="css-label">Remember me</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">I forgot my password</a>
+                </div>
+            </div>
+            <div class="submit-login">
+                <input type="submit" value="Log In" class="submit" id="submit" name="submit">
+            </div>
+        </form>
+    </div>
+    <div id="signup-modal" class="popup" style="display: none;">
+        <a class="close-modal" href="#"></a>
+        <div class="form-title">
+            <h4>Sign Up</h4>
+            <div class="signup">
+                Already a member? <a href="#">Login</a>
+            </div>
+        </div>
+        <div class="login-by">
+            <div class="log-face-w">
+                <a class="log-facebook" href="#">Login with Facebook</a>
+            </div>
+            <div class="log-twit-w">
+                <a class="log-twitter" href="#">Login with Twitter</a>
+            </div>
+        </div>
+        <form id="signupform" name="signupform" method="post">
+            <div class="name-wrap">
+                <input type="text" size="30" value="" class="input" id="user-name" name="name" placeholder="Name">
+            </div> 
+            <div class="email-wrap">
+                <input type="text" size="30" value="" class="input" id="user-email2" name="log" placeholder="Email">
+            </div>     
+            <div class="pass-wrap">
+                <input type="password" size="30" value="" class="input" id="user-pass2" name="password" placeholder="Password">
+            </div>
+
+            <div class="option-login">
+                <div class="remember">
+                    <input type="checkbox" name="check4" id="check4" class="css-checkbox" checked="checked"/><label for="check4" class="css-label">Remember me</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">I forgot my password</a>
+                </div>
+            </div>
+
+            <div class="submit-login">
+                <input type="submit" value="Sign Up" class="submit" id="submit2" name="submit">
+            </div>
+        </form>
+    </div>
+
+
+    <a class="go-top">
+        <i class="icon-arrow-up2"></i>
+    </a>
+    <script src="/assets/jquery.min.js"></script>
+
+<script src="/assets/cporg.js"></script>
+
+
+
+
+
+  </body>
+
+</html>
