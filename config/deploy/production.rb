@@ -38,7 +38,7 @@ set :stage, :production
 server '45.33.112.103', user: 'root', roles: %w{web app}
 
 
-# Custom SSH Options
+## Custom SSH Options
 # ==================
 # You may pass any option but keep in mind that net/ssh understands a
 # limited set of options, consult the Net::SSH documentation.
