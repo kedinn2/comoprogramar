@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+#lock '3.4.0'
 
 
 set :application, 'comoprogramar'
@@ -44,7 +44,7 @@ set :repo_tree, '_site'
 # set :keep_releases, 5
 
 
- set :format, :pretty
+# set :format, :pretty
 
 
 
@@ -53,15 +53,15 @@ set :repo_tree, '_site'
 
 
 
-namespace :deploy do
+#namespace :deploy do
 
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-       within release_path do
-         execute :rake, 'cache:clear'
-       end
-    end
-  end
+#  after :restart, :clear_cache do
+#    on roles(:web), in: :groups, limit: 3, wait: 10 do
+#      # Here we can do anything such as:
+#       within release_path do
+#         execute :rake, 'cache:clear'
+#       end
+#    end
+#  end
 
-end
+#end
